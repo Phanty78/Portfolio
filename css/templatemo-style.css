@@ -1,10 +1,3 @@
-/*
-
-Lavish HTML CSS Template
-
-https://templatemo.com/tm-458-lavish
-		
-*/
 
 body
 {
@@ -226,7 +219,7 @@ h1,h2,h3,h4,h5
       margin-top: 30px;
     }
 	
-#work .media .fa
+#work .media .icons
     {
         border: 2px solid #ffffff;
         border-radius: 50%;
@@ -240,7 +233,7 @@ h1,h2,h3,h4,h5
         vertical-align: middle;
         transition: all 0.4s ease-in;
     }
-#work .media .fa:hover
+#work .media .icons:hover
     {
         background: #ffffff;
         cursor: pointer;
@@ -338,8 +331,9 @@ h1,h2,h3,h4,h5
 		font-weight: bold;
         padding-bottom: 20px;
 		color: #ffffff;
+        text-transform: uppercase;
     }
-#contact .fa
+#contact .icons
     {
         border: 2px solid #ffffff;
         border-radius: 50%;
@@ -418,3 +412,21 @@ footer hr
         color: #D43F52;
     }
 /* end social icon */
+
+/* Updated CSS By Phanty */
+
+.text-space{
+    margin-right: 20px;
+}
+
+a{
+    color : #d43f52;
+}
+
+a:hover{
+    color : #d43f52;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
