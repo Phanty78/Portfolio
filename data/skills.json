@@ -1,0 +1,52 @@
+[
+    {
+        "name": "HTML5",
+        "isVisible": true,
+        "type": "both"
+    },
+    {
+        "name": "CSS3",
+        "isVisible": true,
+        "type": "both"
+    },
+    {
+        "name": "Native Js",
+        "isVisible": true,
+        "type": "both"
+    },
+    {
+        "name": "React.js",
+        "isVisible": true,
+        "type": "front"
+    },
+    {
+        "name": "Git and Github",
+        "isVisible": true,
+        "type": "tool"
+    },
+    {
+        "name": "Figma",
+        "isVisible": true,
+        "type": "front"
+    },
+    {
+        "name": "Vite",
+        "isVisible": true,
+        "type": "tool"
+    },
+    {
+        "name": "Node.js",
+        "isVisible": true,
+        "type": "back"
+    },
+    {
+        "name": "Express.js",
+        "isVisible": true,
+        "type": "back"
+    },
+    {
+        "name": "Sass Css",
+        "isVisible": true,
+        "type": "front"
+    } 
+]

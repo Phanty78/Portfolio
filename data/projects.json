@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Booki",
+        "isVisible": true,
+        "description": "Complete integration of a property rental site based on a Figma model.<br/>Pixel-perfect integration, responsive for phone and tablet, and compliance with the client's specifications.",
+        "imageURL": "assets/webp/booki-preview.webp",
+        "technologies" : ["HTML5","CSS3","Figma"],
+        "live-link": "https://p2-ocr-booki.vercel.app/",
+        "source-link": "https://github.com/Phanty78/P2-OCR-Booki"
+    },
+    {
+        "title": "Sophie Bluel - Architecte d'intérieur",
+        "isVisible": true,
+        "description": "Front-end integration of native JavaScript from a static site.<br/>Creation of a filter system for the gallery, an authentication system and modals for adding and deleting items.",
+        "imageURL": "assets/webp/sophie-preview.webp",
+        "technologies" : ["JS","HTML5","CSS3"],
+        "live-link": "",
+        "source-link": "https://github.com/Phanty78/P3-OCR-Javascript"
+    },
+    {
+        "title": "Nina Carducci - Photographe",
+        "isVisible": true,
+        "description": "Optimised performance, in particular through image management.<br/>Debugging of existing Jqery code.<br/>Improved referencing by implementing good SEO practices.",
+        "imageURL": "assets/webp/nina-preview.webp",
+        "technologies" : ["JS","Debug","SEO"],
+        "live-link": "https://p5-ocr-debug.vercel.app/",
+        "source-link": "https://github.com/Phanty78/P5-OCR-Debug"
+    }
+]

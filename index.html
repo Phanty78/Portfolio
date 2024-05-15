@@ -1,227 +1,281 @@
 <!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="utf-8">
+<html lang="en">
+  <head>
+    <title>Maël Donnart, Web developer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Portfolio Template for Developer" />
+    <meta name="robots" content="index,follow,noodp">
+    <meta name="googlebot" content="index,follow">
 
-		<title>Maël Donnart - Developpeur Web</title>
-		<meta name="description" content="Portfolio de Maël Donnart, développeur Web, incluant projets, compétences, et contact.">
-        <meta name="author" content="Maël Donnart">
-		<meta name="robots" content="index, follow">
-		<meta name="keywords" content="développeur web, portfolio, HTML, CSS, JavaScript, React, Maël Donnart">
-		<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
-        
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@anotherhappydev">
+    <meta name="twitter:creator" content="@anotherhappydev">
+    <meta name="twitter:title" content="Web developer">
+    <meta name="twitter:description" content="A passionate French web developer at the service of your projects">
+    <meta name="twitter:image" content="./assets/webp/portrait.webp"> <!-- A modifier avec une URL absolue -->
 
-		<!-- animate -->
-		<link rel="stylesheet" href="css/animate.min.css">
-		<!-- bootstrap -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- font-awesome -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-		<!-- google font -->
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,800' rel='stylesheet' type='text/css'>
-		<!-- fullpage -->
-		<link rel="stylesheet" href="css/jquery.fullPage.css">
-		<!-- custom -->
-		<link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="canonical" href="https://www.yourdomain.com"> <!-- A modifier -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/ico/favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
 
-	</head>
-	<body>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Maël Donnart",
+        "url": "https://www.yourdomain.com",
+        "sameAs": [
+          "https://github.com/Phanty78",
+          "https://twitter.com/anotherhappydev",
+          "https://www.linkedin.com/in/ma%C3%ABl-donnart-09b73b131/"
+        ],
+        "image": "https://www.yourdomain.com/assets/webp/portrait.webp",
+        "jobTitle": "Web Developer"
+      }
+      </script>
 
-	<div id="fullpage">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/webp/portrait.webp"
+              alt="Maël Donnart Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Maël Donnart</span>
+        </div>
+        <nav class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./assets/resume/resume_Mael_Donnart.pdf" download="resume_Mael_Donnart.pdf" class="header__link">Download my resume</a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </nav>
+      </div>
+      <div class="header__sm-menu">
+        <nav class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
 
-		<!-- start home -->
-		<div id="home" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-2"></div>
-					<div class="col-md-8 wow fadeIn" data-wow-delay="0.9s">
-						<h1>Maël Donnart</h1>
-						<h2 class="rotate uppercase">Developpeur web, spécialiste front-end</h2>
-						<p>Développeur front-end spécialisé dans la création de solutions web dynamiques et responsives pour une ère digitale</p>
-						<a href="#work" aria-label="lien vers mes projets" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Get started</a>
-					</div>
-					<div class="col-md-2"></div>
-				</div>
-			</div>
-		</div>
-		<!-- end home -->
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
 
-		<!-- start work -->
-		<div id="work" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow bounce">
-						<h2 class="uppercase">What i do</h2>
-					</div>
-                </div>  
-                
-                <div class="row what-i-do">
-				</div>
-			</div>
-		</div>
-		<!-- end work -->
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
 
-		<!-- start about -->
-		<div id="about" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.9s">
-						<h2 class="uppercase">a propos</h2>
-						<h4 class="uppercase">developpeur web</h4>
-						<p>Autodidacte, passionnée par le développement informatique depuis des années, j'ai sauté le pas de la reconversion professionnel en 2024 pour faire de mon travail et de ma passion une seule chose.</p>
-						<p>Quinze années de travail dans le commerce et le management m'ont appris la rigueur, le travail d'équipe ainsi que 'autonomie quand cela est nécessaire. Ces expériences passées m'offrent un excellent panel de "soft-skill" pour ce nouveau challenge.</p>
-					</div>
-					<div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
-						<span class="text-top">HTML 5 <small>90%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
-							</div>
-						<span>CSS 3 <small>80%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-							</div>
-						<span>SEO <small>70%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-							</div>
-						<span>JavaScript<small>75%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-							</div>
-						<span>React <small>70%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-							</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- end about -->
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
 
-		<!-- start portfolio -->
-		<div id="portfolio" class="section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="wow bounce uppercase">portfolio</h2>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Web Design</h4>
-								<h5>Author: Cindy</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Web App</h4>
-								<h5>Author: Linda</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Mobile App</h4>
-								<h5>Author: Kate</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Old Artwork</h4>
-								<h5>Author: Catherine</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img5.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>New Animation</h4>
-								<h5>Author: Kathy</h5>
-							</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end portfolio -->
+            <li class="header__sm-menu-link">
+              <a href="./assets/resume/resume_Mael_Donnart.pdf" download="resume_Mael_Donnart.pdf">Download my resume</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is Maël Donnart</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I'm a passionate web developer who's constantly learning. 
+            Want to find out more?<br/> 
+            Click here !
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/ma%C3%ABl-donnart-09b73b131/" aria-label="link to Maël Donnart Linkedin profile" target="_blank" rel="noopener noreferrer" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="linkedin icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/Phanty78" aria-label="link to Maël Donnart Github profile" target="_blank" rel="noopener noreferrer" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="github icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://twitter.com/anotherhappydev" aria-label="link to Maël Donnart Twitter profile" target="_blank" rel="noopener noreferrer" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/twitter-ico.png"
+              alt="twitter icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
 
-		<!-- start contact -->
-		<div id="contact" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-5 col-lg-offset-1 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-						<address>
-							<p class="contact-title">contact me</p>
-							<p><i class="fa-solid fa-phone text-space icons"></i> <a aria-label="Appel au +33 6 74 05 79 06"  href="tel:+33674057906"> +33 6 74 05 79 06</a></p>
-							<p><i class="fa-solid fa-envelope text-space icons"></i> <a aria-label="Envoi d'un mail à mael.donnart.pro@gmail.com" href="mailto:mael.donnart.pro@gmail.com"> mael.donnart.pro@gmail.com</a></p>
-							<p><i class="fa-solid fa-map text-space icons"></i> 5 rue de l'orbiquet, 78711, Mantes la ville</p>
-						</address>
-					</div>
-					<div class="col-lg-6 col-md-6 col-xs-10 wow fadeInUp" data-wow-delay="0.6s">
-						<form role="form" method="post" action="#">
-							<input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
-							<input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
-							<textarea name="message" rows="5" class="form-control" id="message" placeholder="Your Message"></textarea>
-							<input name="send" type="submit" class="form-control" id="send" value="SEND ME">
-						</form>
-					</div>
-					<div class="col-md-1 col-sm-1"></div>
-				</div>
-			</div>
-		</div>
-		<!-- end contact -->
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            <!-- Sous titre, remplir si besoin-->
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">Hello ! My name is <strong>Maël</strong>, and I'm a web developer.</p>
+              <p class="about__content-details-para">I took the initiative of learning to code myself in order to acquire the knowledge and skills needed to turn my ideas into reality,
+                 and then I joined the <strong>Open Classroom</strong> web developer training course to validate my skills and obtain <strong>certification</strong>.</p>
+              <p class="about__content-details-para">Along the way, I acquired expertise in the design and development of <strong>visually attractive and functional websites</strong>. 
+                I'm dedicated to creating websites that don't just look good, but work seamlessly to deliver the best possible user experience.</p>
+              <p class="about__content-details-para">In addition, I have a passion for <strong>Web3</strong>, and it's a world I learn about every day. </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact me there</a>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<!-- start footer -->
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow fadeIn" data-wow-delay="0.9s">
-						<p>Copyright &copy; <span id="actual-year"></span>  Donnart Maël,  tous droits réservés
-                        
-                        . Designed by <a rel="nofollow noopener" aria-label="lien vers le site templatemo" href="https://templatemo.com">templatemo</a></p>
-						<hr>
-						<ul class="social-icon">
-							<li><a href="https://www.linkedin.com/in/ma%C3%ABl-donnart-09b73b131/" rel="nofollow noopener" target="_blank" aria-label="lien vers profil linkedin" class="fa-brands fa-linkedin"></a></li>
-							<li><a href="https://github.com/Phanty78" rel="nofollow noopener" target="_blank" aria-label="lien vers profil GitHub" class="fa-brands fa-github"></a></li>
-							<li><a href="https://dev.to/phanty78" rel="nofollow noopener" aria-label="lien vers profil Dev" target="_blank" class="fa-brands fa-dev"></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- end footer -->
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Checkout a few of my works!
+          </span>
+        </h2>
 
-	</div>
+        <div class="projects__content">
+        </div>
+      </div>
+    </section>
 
-		<!-- jQuery -->
-		<script src="js/jquery.js"></script>
-		<!-- bootstrap -->
-		<script src="js/bootstrap.min.js"></script>
-		<!-- fullpage -->
-		<script src="js/jquery.fullPage.js"></script>
-		<!-- smoothScroll -->
-		<script src="js/smoothscroll.js"></script>
-		<!-- wow -->
-		<script src="js/wow.min.js"></script>
-		<!-- text rotater -->
-		<script src="js/jquery.simple-text-rotator.js"></script>
-		<!-- custom -->
-		<script src="js/custom.js"></script>
-		<!-- footer date-->
-		<script> document.getElementById('actual-year').textContent = new Date().getFullYear() </script>
-		<!-- data-manipulation-->
-		<script src="./js/data-manipulation.js"></script>
-	</body>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Do you have a project or a question? Don't hesitate to contact me! 
+          </span>
+        </h2>
+        <div class="contact__button-container">
+          <a class="btn btn--med dynamicBgClr" href="mailto:mael.donnart.pro@gmail.com" rel="noopener noreferrer" aria-label="Send an email at Maël Donnart">Send me an email</a>
+          <a class="btn btn--med dynamicBgClr" aria-label="link to Maël Donnart Linkedin profile" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ma%C3%ABl-donnart-09b73b131/">Contact me via Linkedin</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a aria-label="link to Maël Donnart Linkedin profile" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ma%C3%ABl-donnart-09b73b131/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="linkedin icon"
+                />
+              </a>
+              <a aria-label="link to Maël Donnart GitHub profile" target="_blank" rel="noopener noreferrer" href="https://github.com/Phanty78">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="github icon"
+                />
+              </a>
+              <a aria-label="link to Maël Donnart Twitter profile" target="_blank" rel="noopener noreferrer" href="https://twitter.com/anotherhappydev">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="twitter icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h2 class="heading heading-sm text-lt">Maël Donnart</h2>
+            <p class="main-footer__short-desc">
+              Web developer specialising in front-end development for your projects
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright <span class="current-year"></span> Template by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/projects.js" type="module"></script>
+    <script src="./assets/js/skills.js" type="module"></script>
+    <script>document.querySelector(".current-year").textContent = new Date().getFullYear()</script>
+  </body>
 </html>

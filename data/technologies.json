@@ -1,0 +1,32 @@
+[
+    {
+        "name": "HTML5",
+        "alt": "HTML icon",
+        "iconURL" : "assets/svg/html5.svg"
+    },
+    {
+        "name": "CSS3",
+        "alt": "CSS3 icon",
+        "iconURL" : "assets/svg/css3-alt.svg"
+    },
+    {
+        "name": "Figma",
+        "alt": "Figma icon",
+        "iconURL" : "assets/svg/figma.svg"
+    },
+    {
+        "name": "JS",
+        "alt": "Javascript icon",
+        "iconURL" : "assets/svg/js.svg"
+    },
+    {
+        "name": "SEO",
+        "alt": "SEO icon",
+        "iconURL" : "assets/svg/bookmark-solid.svg"
+    },
+    {
+        "name": "Debug",
+        "alt": "Bug icon",
+        "iconURL" : "assets/svg/bug-solid.svg"
+    }
+]
