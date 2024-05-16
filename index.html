@@ -2,12 +2,15 @@
 <html lang="en">
   <head>
     <title>Maël Donnart, Web developer</title>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="Portfolio Template for Developer" />
     <meta name="robots" content="index,follow,noodp">
     <meta name="googlebot" content="index,follow">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@anotherhappydev">
@@ -176,23 +179,29 @@
           </span>
         </h2>
         <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">Hello ! My name is <strong>Maël</strong>, and I'm a web developer.</p>
-              <p class="about__content-details-para">I took the initiative of learning to code myself in order to acquire the knowledge and skills needed to turn my ideas into reality,
-                 and then I joined the <strong>Open Classroom</strong> web developer training course to validate my skills and obtain <strong>certification</strong>.</p>
-              <p class="about__content-details-para">Along the way, I acquired expertise in the design and development of <strong>visually attractive and functional websites</strong>. 
-                I'm dedicated to creating websites that don't just look good, but work seamlessly to deliver the best possible user experience.</p>
-              <p class="about__content-details-para">In addition, I have a passion for <strong>Web3</strong>, and it's a world I learn about every day. </p>
+          <div class="about__content-primary">
+            <div class="about__content-main">
+              <h3 class="about__content-title">Get to know me!</h3>
+              <div class="about__content-details">
+                <p class="about__content-details-para">Hello ! My name is <strong>Maël</strong>, and I'm a web developer.</p>
+                <p class="about__content-details-para">I took the initiative of learning to code myself in order to acquire the knowledge and skills needed to turn my ideas into reality,
+                   and then I joined the <strong>Open Classroom</strong> web developer training course to validate my skills and obtain <strong>certification</strong>.</p>
+                <p class="about__content-details-para">Along the way, I acquired expertise in the design and development of <strong>visually attractive and functional websites</strong>. 
+                  I'm dedicated to creating websites that don't just look good, but work seamlessly to deliver the best possible user experience.</p>
+                <p class="about__content-details-para">In addition, I have a passion for <strong>Web3</strong>, and it's a world I learn about every day. </p>
+              </div>
+              <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact me there</a>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact me there</a>
-          </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
-            <div class="skills">
+            <div class="about__content-skills">
+              <h3 class="about__content-title">My Skills</h3>
+              <div class="skills">
+              </div>
             </div>
           </div>
+          <div class="about__content-map">
+            <h3 class="about__content-title">Where I am</h3>
+            <div id="map"></div>
+          </div>    
         </div>
       </div>
     </section>
@@ -278,5 +287,24 @@
     <script src="./assets/js/projects.js" type="module"></script>
     <script src="./assets/js/skills.js" type="module"></script>
     <script>document.querySelector(".current-year").textContent = new Date().getFullYear()</script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Initialize the map
+        var map = L.map('map',{
+          center: [48.9896, 1.7001], // Coordinates for Mantes-la-Ville, France
+          zoom: 10, // Default zoom level
+          zoomControl: true // Enable zoom control
+        })
+
+        // Set up the OpenStreetMap layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map)
+
+        // Add a marker to your location
+        L.marker([48.9896, 1.7001]).addTo(map)
+
+        L.control.zoom
+    </script>
   </body>
 </html>

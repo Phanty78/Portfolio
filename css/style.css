@@ -255,13 +255,38 @@ textarea {
 .about {
   background: #fafafa; }
   .about__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10rem; }
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+     }
     @media only screen and (max-width: 56.25em) {
       .about__content {
-        grid-template-columns: 1fr;
-        grid-gap: 8rem; } }
+        gap: 8rem; } }
+  .about__content-primary{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10rem;
+  }
+  @media only screen and (max-width: 56.25em) {
+    .about__content-primary{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5rem;
+    }}
+  .about__content-main{
+    flex: 1;
+  }
+  .about__content-skills{
+    flex: 1;
+  }
+
+.about__content-map{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
     .about__content-title {
       font-weight: 700;
       font-size: 2.8rem;
@@ -754,3 +779,10 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+    /* leafletjs */
+    #map {
+      height: 400px;  /* Height of the map */
+      width: 100%;    /* Width of the map */
+      border-radius: 25px;
+  }
