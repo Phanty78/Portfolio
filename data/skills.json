@@ -5,7 +5,7 @@
         "type": "both"
     },
     {
-        "name": "CSS3",
+        "name": "CSS3 / Sass",
         "isVisible": true,
         "type": "both"
     },
@@ -45,8 +45,34 @@
         "type": "back"
     },
     {
-        "name": "Sass Css",
+        "name": "SEO Optimization",
         "isVisible": true,
         "type": "front"
-    } 
+    }
+    ,
+    {
+        "name": "Mobile First",
+        "isVisible": true,
+        "type": "front"
+    },
+    {
+        "name": "Api Rest - Call Fetch",
+        "isVisible": true,
+        "type": "back"
+    },
+    {
+        "name": "Core Web Vitals",
+        "isVisible": true,
+        "type": "both"
+    },
+    {
+        "name": "Agile Method",
+        "isVisible": true,
+        "type": "soft"
+    },
+    {
+        "name": "Mongo DB",
+        "isVisible": true,
+        "type": "back"
+    }
 ]

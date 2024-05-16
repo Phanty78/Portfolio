@@ -25,5 +25,23 @@
         "technologies" : ["Vanilla JS - ES6+","Debug","SEO"],
         "live-link": "https://p5-ocr-debug.vercel.app/",
         "source-link": "https://github.com/Phanty78/P5-OCR-Debug"
+    },
+    {
+        "title": "Mon Vieux Grimoire",
+        "isVisible": true,
+        "description": "Development from scratch of the back end of a book rating website.implementation of a REST API (CRUD) in compliance with a view-controller model architecture.<br/> User authentication management.<br/> Emphasis on security using third-party libraries such as Mongoose or Brute.js.",
+        "imageURL": "assets/webp/mon-vieux-grimoire.webp",
+        "technologies" : ["Node.js", "Express.js", "API-REST"],
+        "live-link": "",
+        "source-link": "https://github.com/Phanty78/P7-OCR-Backend-NodeJs"
+    },
+    {
+        "title": "Kasa",
+        "isVisible": true,
+        "description": "Development and integration of the Front-End of an ‘AirBnB’-style property rental website.<br/> Use of React.js and hooks as well as Sass for the Css.<br/> Creation of Css animations.Deployment using React best practices.",
+        "imageURL": "assets/webp/kaza-preview.webp",
+        "technologies" : ["React.js", "Sass", "Figma"],
+        "live-link": "https://p6-ocr-react.vercel.app/",
+        "source-link": "https://github.com/Phanty78/P6-OCR-React"
     }
 ]

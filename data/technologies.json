@@ -28,5 +28,31 @@
         "name": "Debug",
         "alt": "Bug icon",
         "iconURL" : "assets/svg/bug-solid.svg"
+    },
+    {
+        "name": "API-REST",
+        "alt": "API icon",
+        "iconURL" : "assets/svg/right-left-solid.svg"
+    },
+    {
+        "name": "Node.js",
+        "alt": "Node.js icon",
+        "iconURL" : "assets/svg/node-js.svg"
+    },
+    {
+        "name": "Express.js",
+        "alt": "Express.js icon",
+        "iconURL" : "assets/svg/cloud-bolt-solid.svg"
+    },
+    {
+        "name": "React.js",
+        "alt": "React.js icon",
+        "iconURL" : "assets/svg/react.svg"
+    },
+    {
+        "name": "Sass",
+        "alt": "Sass icon",
+        "iconURL" : "assets/svg/sass.svg"
     }
 ]
+
