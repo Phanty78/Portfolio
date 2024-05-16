@@ -80,9 +80,6 @@ function createProject(projectsData, thecData) {
                 buttonContainer.appendChild(sourceButton)
             }
 
-            
-            
-
             // Create Image
             const image = document.createElement("img")
             image.setAttribute("src", project.imageURL)

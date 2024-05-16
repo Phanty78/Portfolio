@@ -13,7 +13,7 @@
         "isVisible": true,
         "description": "Front-end integration of native JavaScript from a static site.<br/>Creation of a filter system for the gallery, an authentication system and modals for adding and deleting items.",
         "imageURL": "assets/webp/sophie-preview.webp",
-        "technologies" : ["JS","HTML5","CSS3"],
+        "technologies" : ["Vanilla JS - ES6+","HTML5","CSS3"],
         "live-link": "",
         "source-link": "https://github.com/Phanty78/P3-OCR-Javascript"
     },
@@ -22,7 +22,7 @@
         "isVisible": true,
         "description": "Optimised performance, in particular through image management.<br/>Debugging of existing Jqery code.<br/>Improved referencing by implementing good SEO practices.",
         "imageURL": "assets/webp/nina-preview.webp",
-        "technologies" : ["JS","Debug","SEO"],
+        "technologies" : ["Vanilla JS - ES6+","Debug","SEO"],
         "live-link": "https://p5-ocr-debug.vercel.app/",
         "source-link": "https://github.com/Phanty78/P5-OCR-Debug"
     }

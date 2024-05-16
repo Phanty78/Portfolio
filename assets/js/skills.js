@@ -19,4 +19,3 @@ getData(skillsURL)
     .catch(error => {
         console.error("Error loading skills JSON", error)
     })
-
