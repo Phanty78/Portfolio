@@ -107,7 +107,6 @@ getData(projectsURL)
             getData(technologiesURL)
                 .then(technologiesData => {
                     if (technologiesData) {
-                        console.log(technologiesData)
                         createProject(projectsData, technologiesData)
                     } else {
                         console.error("Failed to load technologies data")
