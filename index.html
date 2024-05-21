@@ -71,10 +71,10 @@
         <nav class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+              <a href="./index.html" class="header__link">Home</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
+              <a href="./index.html#about" class="header__link">About</a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#projects" class="header__link">
@@ -82,7 +82,10 @@
               </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="./index.html#contact" class="header__link">Contact</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#testimonials" class="header__link">Customer testimonials</a>
             </li>
             <li class="header__link-wrapper">
               <a href="./assets/resume/resume_Mael_Donnart.pdf" download="resume_Mael_Donnart.pdf" class="header__link">Download my resume</a>
@@ -119,6 +122,10 @@
 
             <li class="header__sm-menu-link">
               <a href="./index.html#contact"> Contact </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#testimonials" class="header__link">Customer testimonials</a>
             </li>
 
             <li class="header__sm-menu-link">
@@ -228,6 +235,19 @@
       </div>
     </section>
 
+    <section id="testimonials" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Customer testimonials</span>
+          <span class="heading-sec__sub">
+            What my customers say
+          </span>
+        </h2>
+        <div class="testimonials__container">
+        </div>
+      </div>
+    </section>
+
     <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
@@ -293,6 +313,7 @@
 
     <script src="./assets/js/projects.js" type="module"></script>
     <script src="./assets/js/skills.js" type="module"></script>
+    <script src="./assets/js/testimonials.js" type="module"></script>
     <script>document.querySelector(".current-year").textContent = new Date().getFullYear()</script>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
