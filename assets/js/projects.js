@@ -61,7 +61,7 @@ function createProject(projectsData, thecData) {
             buttonContainer.classList.add("projects__row-content-button-container")
             if (project["live-link"]!== "") {
                 const liveButton = document.createElement("a")
-                liveButton.classList.add("btn", "btn--med", "btn--theme", "dynamicBgClr")
+                liveButton.classList.add("btn", "btn--med", "btn--theme", "dynamicBgClr", "btn--card-size")
                 liveButton.setAttribute("href", project["live-link"])
                 liveButton.setAttribute("target", "_blank")
                 liveButton.setAttribute("aria-label", "Link to the project demo")
@@ -71,7 +71,7 @@ function createProject(projectsData, thecData) {
             }
             if (project["source-link"] !== "") {
                 const sourceButton = document.createElement("a")
-                sourceButton.classList.add("btn", "btn--med", "btn--theme", "dynamicBgClr")
+                sourceButton.classList.add("btn", "btn--med", "btn--theme", "dynamicBgClr", "btn--card-size")
                 sourceButton.setAttribute("href", project["source-link"])
                 sourceButton.setAttribute("target", "_blank")
                 sourceButton.setAttribute("aria-label", "Link to the project source code")

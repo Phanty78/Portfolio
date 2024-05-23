@@ -7,7 +7,7 @@ function createRating(rating, container) {
     if (rating) {
         for (let i = 0; i < 5; i++) {
             const star = document.createElement("img")
-            star.classList.add("testimonials__container-card-rating-container-star")
+            star.classList.add("testimonials__star")
             if (rating > 0) {
                 star.setAttribute("src","assets/svg/star-solid.svg")
                 rating--
@@ -25,21 +25,21 @@ getData(testimonialsURL)
             const displayedElements = testimonialsData.slice(-3) // A modifier par un slider
             displayedElements.forEach(testimonial => {
                 const testimonialCard = document.createElement("div")
-                testimonialCard.classList.add("testimonials__container-card")
+                testimonialCard.classList.add("testimonials__card")
                 const nameAndPictureContainer = document.createElement("div")
-                nameAndPictureContainer.classList.add("testimonials__container-card-name-and-picture-container")
+                nameAndPictureContainer.classList.add("testimonials__name-and-picture-container")
                 const name = document.createElement("h3")
-                name.classList.add("testimonials__container-card-name-and-picture-container-text")
+                name.classList.add("testimonials__text")
                 name.textContent = testimonial.name
                 const picture = document.createElement("img")
-                picture.classList.add("testimonials__container-card-picture")
+                picture.classList.add("testimonials__picture")
                 picture.setAttribute("src", testimonial.pictureURL)
                 const quote = document.createElement("blockquote")
-                quote.classList.add("testimonials__container-card-quote")
+                quote.classList.add("testimonials__quote")
                 quote.textContent = `" ${testimonial.quote} "`
                 const ratingContainer = document.createElement("div")
                 createRating(testimonial.rating, ratingContainer)
-                ratingContainer.classList.add("testimonials__container-card-rating-container")
+                ratingContainer.classList.add("testimonials__rating-container")
                 nameAndPictureContainer.appendChild(name)
                 nameAndPictureContainer.appendChild(picture)
                 testimonialCard.appendChild(nameAndPictureContainer)
