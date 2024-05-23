@@ -3,14 +3,14 @@
   <head>
     <title>Maël Donnart, Web developer</title>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="Creative front-end web developer who enjoys designing and developing responsive websites. Proficient in HTML5, CSS3, JavaScript, and React. Passionate about UX/UI design and emerging technologies. Currently seeking new opportunities." />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+    <meta name="description" content="Creative front-end web developer who enjoys designing and developing responsive websites. Proficient in HTML5, CSS3, JavaScript, and React. Passionate about UX/UI design and emerging technologies. Currently seeking new opportunities." >
     <meta name="robots" content="index,follow,noodp">
     <meta name="googlebot" content="index,follow">
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" >
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@anotherhappydev">
@@ -29,14 +29,15 @@
 
     <link rel="canonical" href="https://portfolio-mael-donnart.vercel.app/">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="preload" href="css/style.css" as="style">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" as="style">
     <link rel="icon" type="image/x-icon" href="./assets/ico/favicon.ico">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/style.min.css" as="style">
+    <link rel="stylesheet" href="css/style.min.css">
 
     <script type="application/ld+json">
       {
@@ -64,25 +65,30 @@
               src="./assets/webp/portrait.webp"
               alt="Maël Donnart Logo Image"
               class="header__logo-img"
-            />
+            >
           </div>
           <span class="header__logo-sub">Maël Donnart</span>
         </div>
         <nav class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+              <a href="./index.html" class="header__link">Home</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
+              <a href="./index.html#about" class="header__link">About</a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#projects" class="header__link">
                 Projects
               </a>
             </li>
+            <!--
+              <li class="header__link-wrapper">
+                <a href="./index.html#testimonials" class="header__link">Customer testimonials</a>
+              </li>
+            -->
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="./index.html#contact" class="header__link">Contact</a>
             </li>
             <li class="header__link-wrapper">
               <a href="./assets/resume/resume_Mael_Donnart.pdf" download="resume_Mael_Donnart.pdf" class="header__link">Download my resume</a>
@@ -93,12 +99,12 @@
               src="./assets/svg/ham-menu.svg"
               alt="hamburger menu"
               class="header__main-ham-menu"
-            />
+            >
             <img
               src="./assets/svg/ham-menu-close.svg"
               alt="hamburger menu close"
               class="header__main-ham-menu-close d-none"
-            />
+            >
           </div>
         </nav>
       </div>
@@ -117,6 +123,12 @@
               <a href="./index.html#projects"> Projects </a>
             </li>
 
+            <!--
+              <li class="header__sm-menu-link">
+                <a href="./index.html#testimonials" class="header__link">Customer testimonials</a>
+              </li>
+            -->
+
             <li class="header__sm-menu-link">
               <a href="./index.html#contact"> Contact </a>
             </li>
@@ -131,18 +143,18 @@
     
     <section class="home-hero">
       <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is Maël Donnart</h1>
+        <h1 class="heading-primary">Hey, My name is <br >Maël Donnart</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            I'm a passionate web developer who's constantly learning. 
-            Want to find out more?<br/> 
+            I'm a passionate web developer who's constantly learning.<br > 
+            Want to find out more?<br> 
             Click here !
           </p>
         </div>
         <div class="home-hero__cta">
           <a href="./#contact" class="btn btn--cta">✅ Currently available</a>
         </div>
-        <p class="text-primary"><br/>Based in the Paris region</p>  
+        <h2 class="text-primary"><br>Based in the Paris region (La Défense)</h2>  
       </div>
       <div class="home-hero__socials">
         <div class="home-hero__social">
@@ -151,7 +163,7 @@
               src="./assets/png/linkedin-ico.png"
               alt="linkedin icon"
               class="home-hero__social-icon"
-            />
+            >
           </a>
         </div>
         <div class="home-hero__social">
@@ -160,7 +172,7 @@
               src="./assets/png/github-ico.png"
               alt="github icon"
               class="home-hero__social-icon"
-            />
+            >
           </a>
         </div>
         <div class="home-hero__social">
@@ -169,7 +181,7 @@
               src="./assets/png/twitter-ico.png"
               alt="twitter icon"
               class="home-hero__social-icon"
-            />
+            >
           </a>
         </div>
       </div>
@@ -198,7 +210,7 @@
                   I'm dedicated to creating websites that don't just look good, but work seamlessly to deliver the best possible user experience.</p>
                 <p class="about__content-details-para">In addition, I have a passion for <strong>Web3</strong>, and it's a world I learn about every day. </p>
               </div>
-              <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact me there</a>
+              <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact me</a>
             </div>
             <div class="about__content-skills">
               <h3 class="about__content-title">My Skills</h3>
@@ -228,6 +240,21 @@
       </div>
     </section>
 
+    <!--
+    <section id="testimonials" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Customer testimonials</span>
+          <span class="heading-sec__sub">
+            What my customers say
+          </span>
+        </h2>
+        <div class="testimonials__container">
+        </div>
+      </div>
+    </section>
+    -->
+
     <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
@@ -237,9 +264,10 @@
           </span>
         </h2>
         <div class="contact__button-container">
-          <a class="btn btn--med dynamicBgClr" href="mailto:mael.donnart.pro@gmail.com" rel="noopener noreferrer" aria-label="Send an email at Maël Donnart">Send me an email</a>
-          <a class="btn btn--med dynamicBgClr" aria-label="link to Maël Donnart Linkedin profile" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ma%C3%ABl-donnart-09b73b131/">Contact me via Linkedin</a>
+          <a class="btn btn--med dynamicBgClr btn--contact-size" href="mailto:mael.donnart.pro@gmail.com" rel="noopener noreferrer" aria-label="Send an email at Maël Donnart">Send me an email</a>
+          <a class="btn btn--med dynamicBgClr btn--contact-size" aria-label="link to Maël Donnart Linkedin profile" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ma%C3%ABl-donnart-09b73b131/">Contact me via Linkedin</a>
         </div>
+        <a href="./assets/resume/resume_Mael_Donnart.pdf" download="resume_Mael_Donnart.pdf" class="contact__link">Download my resume</a>
       </div>
     </section>
 
@@ -256,28 +284,28 @@
                   class="main-footer__icon"
                   src="./assets/png/linkedin-ico.png"
                   alt="linkedin icon"
-                />
+                >
               </a>
               <a aria-label="link to Maël Donnart GitHub profile" target="_blank" rel="noopener noreferrer" href="https://github.com/Phanty78">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/github-ico.png"
                   alt="github icon"
-                />
+                >
               </a>
               <a aria-label="link to Maël Donnart Twitter profile" target="_blank" rel="noopener noreferrer" href="https://twitter.com/anotherhappydev">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/twitter-ico.png"
                   alt="twitter icon"
-                />
+                >
               </a>
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
             <h2 class="heading heading-sm text-lt">Maël Donnart</h2>
             <p class="main-footer__short-desc">
-              Web developer specialising in front-end development for your projects
+              Web developer specialized in front-end development for your projects
             </p>
           </div>
         </div>
@@ -291,28 +319,26 @@
       </div>
     </footer>
 
-    <script src="./assets/js/projects.js" type="module"></script>
-    <script src="./assets/js/skills.js" type="module"></script>
+    <script src="./assets/js/projects.min.js" type="module"></script>
+    <script src="./assets/js/skills.min.js" type="module"></script>
+    <!-- <script src="./assets/js/testimonials.min.js" type="module"></script> -->
     <script>document.querySelector(".current-year").textContent = new Date().getFullYear()</script>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-        // Initialize the map
         var map = L.map('map',{
-          center: [48.9896, 1.7001], // Coordinates for Mantes-la-Ville, France
-          zoom: 10, // Default zoom level
-          zoomControl: true // Enable zoom control
+          center: [48.9896, 1.7001], 
+          zoom: 10,
+          zoomControl: true
         })
 
-        // Set up the OpenStreetMap layer
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map)
 
-        // Add a marker to your location
         L.marker([48.9896, 1.7001]).addTo(map)
 
         L.control.zoom
     </script>
-    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/index.min.js"></script>
   </body>
 </html>

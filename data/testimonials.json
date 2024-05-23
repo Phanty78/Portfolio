@@ -1,0 +1,20 @@
+[
+    {
+        "name": "test",
+        "pictureURL": "assets/webp/NOOTTY.webp",
+        "quote": "Grâce à Maël, nous avons maintenant le bon Nootty pour travailler",
+        "rating": 5
+    },
+    {
+        "name": "test",
+        "pictureURL": "assets/webp/NOOTTY.webp",
+        "quote": "Grâce à Maël, nous avons maintenant le bon Nootty pour travailler",
+        "rating": 4
+    },
+    {
+        "name": "test",
+        "pictureURL": "assets/webp/NOOTTY.webp",
+        "quote": "Grâce à Maël, nous avons maintenant le bon Nootty pour travailler",
+        "rating": 3
+    }
+]
