@@ -1,58 +1,67 @@
 [
-    {
-        "name": "HTML5",
-        "alt": "HTML icon",
-        "iconURL" : "assets/svg/html5.svg"
-    },
-    {
-        "name": "CSS3",
-        "alt": "CSS3 icon",
-        "iconURL" : "assets/svg/css3-alt.svg"
-    },
-    {
-        "name": "Figma",
-        "alt": "Figma icon",
-        "iconURL" : "assets/svg/figma.svg"
-    },
-    {
-        "name": "Vanilla JS - ES6+",
-        "alt": "Javascript icon",
-        "iconURL" : "assets/svg/js.svg"
-    },
-    {
-        "name": "SEO",
-        "alt": "SEO icon",
-        "iconURL" : "assets/svg/bookmark-solid.svg"
-    },
-    {
-        "name": "Debug",
-        "alt": "Bug icon",
-        "iconURL" : "assets/svg/bug-solid.svg"
-    },
-    {
-        "name": "API-REST",
-        "alt": "API icon",
-        "iconURL" : "assets/svg/right-left-solid.svg"
-    },
-    {
-        "name": "Node.js",
-        "alt": "Node.js icon",
-        "iconURL" : "assets/svg/node-js.svg"
-    },
-    {
-        "name": "Express.js",
-        "alt": "Express.js icon",
-        "iconURL" : "assets/svg/cloud-bolt-solid.svg"
-    },
-    {
-        "name": "React.js",
-        "alt": "React.js icon",
-        "iconURL" : "assets/svg/react.svg"
-    },
-    {
-        "name": "Sass",
-        "alt": "Sass icon",
-        "iconURL" : "assets/svg/sass.svg"
-    }
+  {
+    "name": "HTML5",
+    "alt": "HTML icon",
+    "iconURL": "assets/svg/html5.svg"
+  },
+  {
+    "name": "CSS3",
+    "alt": "CSS3 icon",
+    "iconURL": "assets/svg/css3-alt.svg"
+  },
+  {
+    "name": "Figma",
+    "alt": "Figma icon",
+    "iconURL": "assets/svg/figma.svg"
+  },
+  {
+    "name": "Vanilla JS - ES6+",
+    "alt": "Javascript icon",
+    "iconURL": "assets/svg/js.svg"
+  },
+  {
+    "name": "SEO",
+    "alt": "SEO icon",
+    "iconURL": "assets/svg/bookmark-solid.svg"
+  },
+  {
+    "name": "Debug",
+    "alt": "Bug icon",
+    "iconURL": "assets/svg/bug-solid.svg"
+  },
+  {
+    "name": "API-REST",
+    "alt": "API icon",
+    "iconURL": "assets/svg/right-left-solid.svg"
+  },
+  {
+    "name": "Node.js",
+    "alt": "Node.js icon",
+    "iconURL": "assets/svg/node-js.svg"
+  },
+  {
+    "name": "Express.js",
+    "alt": "Express.js icon",
+    "iconURL": "assets/svg/cloud-bolt-solid.svg"
+  },
+  {
+    "name": "React.js",
+    "alt": "React.js icon",
+    "iconURL": "assets/svg/react.svg"
+  },
+  {
+    "name": "Sass",
+    "alt": "Sass icon",
+    "iconURL": "assets/svg/sass.svg"
+  },
+  {
+    "name": "MongoDB",
+    "alt": "MongoDB icon",
+    "iconURL": "assets/svg/mongodb.svg"
+  },
+  {
+    "name": "Tailwind",
+    "alt": "Tailwind icon",
+    "iconURL": "assets/svg/tailwind.svg"
+  }
 ]
-
