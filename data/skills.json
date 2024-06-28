@@ -1,78 +1,82 @@
 [
-    {
-        "name": "HTML5",
-        "isVisible": true,
-        "type": "both"
-    },
-    {
-        "name": "CSS3 / Sass",
-        "isVisible": true,
-        "type": "both"
-    },
-    {
-        "name": "Native Js",
-        "isVisible": true,
-        "type": "both"
-    },
-    {
-        "name": "React.js",
-        "isVisible": true,
-        "type": "front"
-    },
-    {
-        "name": "Git and Github",
-        "isVisible": true,
-        "type": "tool"
-    },
-    {
-        "name": "Figma",
-        "isVisible": true,
-        "type": "front"
-    },
-    {
-        "name": "Vite",
-        "isVisible": true,
-        "type": "tool"
-    },
-    {
-        "name": "Node.js",
-        "isVisible": true,
-        "type": "back"
-    },
-    {
-        "name": "Express.js",
-        "isVisible": true,
-        "type": "back"
-    },
-    {
-        "name": "SEO Optimization",
-        "isVisible": true,
-        "type": "front"
-    }
-    ,
-    {
-        "name": "Mobile First",
-        "isVisible": true,
-        "type": "front"
-    },
-    {
-        "name": "Api Rest - Call Fetch",
-        "isVisible": true,
-        "type": "back"
-    },
-    {
-        "name": "Core Web Vitals",
-        "isVisible": true,
-        "type": "both"
-    },
-    {
-        "name": "Agile Method",
-        "isVisible": true,
-        "type": "soft"
-    },
-    {
-        "name": "Mongo DB",
-        "isVisible": true,
-        "type": "back"
-    }
+  {
+    "name": "HTML5",
+    "isVisible": true,
+    "type": "both"
+  },
+  {
+    "name": "CSS3 / Sass",
+    "isVisible": true,
+    "type": "both"
+  },
+  {
+    "name": "JavaScript ES6+",
+    "isVisible": true,
+    "type": "both"
+  },
+  {
+    "name": "React.js",
+    "isVisible": true,
+    "type": "front"
+  },
+  {
+    "name": "Git and Github",
+    "isVisible": true,
+    "type": "tool"
+  },
+  {
+    "name": "Figma",
+    "isVisible": true,
+    "type": "front"
+  },
+  {
+    "name": "Vite",
+    "isVisible": true,
+    "type": "tool"
+  },
+  {
+    "name": "Node.js",
+    "isVisible": true,
+    "type": "back"
+  },
+  {
+    "name": "Express.js",
+    "isVisible": true,
+    "type": "back"
+  },
+  {
+    "name": "SEO Optimization",
+    "isVisible": true,
+    "type": "front"
+  },
+  {
+    "name": "Mobile First",
+    "isVisible": true,
+    "type": "front"
+  },
+  {
+    "name": "Api Rest - Call Fetch",
+    "isVisible": true,
+    "type": "back"
+  },
+  {
+    "name": "Core Web Vitals",
+    "isVisible": true,
+    "type": "both"
+  },
+  {
+    "name": "Agile Method",
+    "isVisible": true,
+    "type": "soft"
+  },
+  {
+    "name": "Mongo DB",
+    "isVisible": true,
+    "type": "back"
+  },
+  {
+    "name": "Tailwind CSS",
+    "isVisible": true,
+    "type": "front"
+  }
 ]
