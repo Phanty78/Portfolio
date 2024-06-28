@@ -1,47 +1,56 @@
 [
-    {
-        "title": "Booki",
-        "isVisible": true,
-        "description": "Complete integration of a property rental site based on a Figma model.<br/>Pixel-perfect integration, responsive for phone and tablet, and compliance with the client's specifications.",
-        "imageURL": "assets/webp/booki-preview.webp",
-        "technologies" : ["HTML5","CSS3","Figma"],
-        "live-link": "https://p2-ocr-booki.vercel.app/",
-        "source-link": "https://github.com/Phanty78/P2-OCR-Booki"
-    },
-    {
-        "title": "Sophie Bluel - Architecte d'intérieur",
-        "isVisible": true,
-        "description": "Front-end integration of native JavaScript from a static site.<br/>Creation of a filter system for the gallery, an authentication system and modals for adding and deleting items.",
-        "imageURL": "assets/webp/sophie-preview.webp",
-        "technologies" : ["Vanilla JS - ES6+","HTML5","CSS3"],
-        "live-link": "",
-        "source-link": "https://github.com/Phanty78/P3-OCR-Javascript"
-    },
-    {
-        "title": "Nina Carducci - Photographe",
-        "isVisible": true,
-        "description": "Optimised performance, in particular through image management.<br/>Debugging of existing Jqery code.<br/>Improved referencing by implementing good SEO practices.",
-        "imageURL": "assets/webp/nina-preview.webp",
-        "technologies" : ["Vanilla JS - ES6+","Debug","SEO"],
-        "live-link": "https://p5-ocr-debug.vercel.app/",
-        "source-link": "https://github.com/Phanty78/P5-OCR-Debug"
-    },
-    {
-        "title": "Mon Vieux Grimoire",
-        "isVisible": true,
-        "description": "Development from scratch of the back end of a book rating website.implementation of a REST API (CRUD) in compliance with a view-controller model architecture.<br/> User authentication management.<br/> Emphasis on security using third-party libraries such as Mongoose or Brute.js.",
-        "imageURL": "assets/webp/mon-vieux-grimoire.webp",
-        "technologies" : ["Node.js", "Express.js", "API-REST"],
-        "live-link": "",
-        "source-link": "https://github.com/Phanty78/P7-OCR-Backend-NodeJs"
-    },
-    {
-        "title": "Kasa",
-        "isVisible": true,
-        "description": "Development and integration of the Front-End of an ‘AirBnB’-style property rental website.<br/> Use of React.js and hooks as well as Sass for the Css.<br/> Creation of Css animations.Deployment using React best practices.",
-        "imageURL": "assets/webp/kaza-preview.webp",
-        "technologies" : ["React.js", "Sass", "Figma"],
-        "live-link": "https://p6-ocr-react.vercel.app/",
-        "source-link": "https://github.com/Phanty78/P6-OCR-React"
-    }
+  {
+    "title": "Cover Letter Generator",
+    "isVisible": true,
+    "description": "A SaaS project enabling AI generation of highly personalized cover letters.<br/>Using the OpenAI API.<br/>BackEnd (Node.Js) and FrontEnd (React.Js + TailWind CSS) development.<br/>Under active development.",
+    "imageURL": "assets/webp/under-development.webp",
+    "technologies": ["Node.js", "React.js", "Tailwind", "MongoDB"],
+    "live-link": "",
+    "source-link": ""
+  },
+  {
+    "title": "Kasa",
+    "isVisible": true,
+    "description": "Development and integration of the Front-End of an ‘AirBnB’-style property rental website.<br/> Use of React.js and hooks as well as Sass for the Css.<br/> Creation of Css animations.Deployment using React best practices.",
+    "imageURL": "assets/webp/kaza-preview.webp",
+    "technologies": ["React.js", "Sass", "Figma"],
+    "live-link": "https://p6-ocr-react.vercel.app/",
+    "source-link": "https://github.com/Phanty78/P6-OCR-React"
+  },
+  {
+    "title": "Booki",
+    "isVisible": true,
+    "description": "Complete integration of a property rental site based on a Figma model.<br/>Pixel-perfect integration, responsive for phone and tablet, and compliance with the client's specifications.",
+    "imageURL": "assets/webp/booki-preview.webp",
+    "technologies": ["HTML5", "CSS3", "Figma"],
+    "live-link": "https://p2-ocr-booki.vercel.app/",
+    "source-link": "https://github.com/Phanty78/P2-OCR-Booki"
+  },
+  {
+    "title": "Sophie Bluel - Architecte d'intérieur",
+    "isVisible": true,
+    "description": "Front-end integration of native JavaScript from a static site.<br/>Creation of a filter system for the gallery, an authentication system and modals for adding and deleting items.",
+    "imageURL": "assets/webp/sophie-preview.webp",
+    "technologies": ["Vanilla JS - ES6+", "HTML5", "CSS3"],
+    "live-link": "",
+    "source-link": "https://github.com/Phanty78/P3-OCR-Javascript"
+  },
+  {
+    "title": "Nina Carducci - Photographe",
+    "isVisible": true,
+    "description": "Optimised performance, in particular through image management.<br/>Debugging of existing Jqery code.<br/>Improved referencing by implementing good SEO practices.",
+    "imageURL": "assets/webp/nina-preview.webp",
+    "technologies": ["Vanilla JS - ES6+", "Debug", "SEO"],
+    "live-link": "https://p5-ocr-debug.vercel.app/",
+    "source-link": "https://github.com/Phanty78/P5-OCR-Debug"
+  },
+  {
+    "title": "Mon Vieux Grimoire",
+    "isVisible": true,
+    "description": "Development from scratch of the back end of a book rating website.implementation of a REST API (CRUD) in compliance with a view-controller model architecture.<br/> User authentication management.<br/> Emphasis on security using third-party libraries such as Mongoose or Brute.js.",
+    "imageURL": "assets/webp/mon-vieux-grimoire.webp",
+    "technologies": ["Node.js", "Express.js", "API-REST"],
+    "live-link": "",
+    "source-link": "https://github.com/Phanty78/P7-OCR-Backend-NodeJs"
+  }
 ]
