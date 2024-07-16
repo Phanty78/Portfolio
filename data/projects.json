@@ -1,11 +1,18 @@
 [
   {
-    "title": "Cover Letter Generator",
+    "title": "CovLetter",
     "isVisible": true,
     "description": "A SaaS project enabling AI generation of highly personalized cover letters.<br/>Using the OpenAI API.<br/>BackEnd (Node.Js) and FrontEnd (React.Js + TailWind CSS) development.<br/>Under active development.",
     "imageURL": "assets/webp/under-development.webp",
-    "technologies": ["Node.js", "React.js", "Tailwind", "MongoDB"],
-    "live-link": "",
+    "technologies": [
+      "Node.js",
+      "React.js",
+      "Tailwind",
+      "MongoDB",
+      "API-REST",
+      "Express.js"
+    ],
+    "live-link": "https://saas-lettre-motivation-frontend.vercel.app/",
     "source-link": ""
   },
   {

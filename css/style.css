@@ -459,10 +459,12 @@ textarea {
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
+  width: 50%;
 }
 @media only screen and (max-width: 56.25em) {
   .projects__row-content {
     align-items: center;
+    width: 100%;
   }
 }
 .projects__row-content-title {
@@ -505,6 +507,7 @@ textarea {
   align-items: center;
   gap: 5px;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 @media screen and (min-width: 37.5em) {
   .projects__row-content-technologies-container {
@@ -521,6 +524,7 @@ textarea {
   color: rgb(57, 53, 53);
   line-height: 1.5;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 @media screen and (min-width: 37.5em) {
   .projects__row-content-technologies-container-name {
@@ -532,6 +536,7 @@ textarea {
 }
 .projects__row-content-technologies-container-icon {
   width: 20px;
+  margin-bottom: 10px;
 }
 @media screen and (min-width: 37.5em) {
   .projects__row-content-technologies-container-icon {
@@ -802,7 +807,7 @@ textarea {
   justify-content: center;
   align-items: center;
 }
-@media screen and (min-width: 37.5em) {
+@media screen and (min-width: 767px) {
   .testimonials__container {
     flex-direction: row;
   }
@@ -816,13 +821,18 @@ textarea {
   background-color: white;
   border-radius: 20px;
   padding: 2rem;
+  min-height: 615px;
 }
 .testimonials__name-and-picture-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 1em 3em;
+}
+@media screen and (min-width: 37.5em) {
+  .testimonials__name-and-picture-container {
+    padding: 1em 3em;
+  }
 }
 .testimonials__text {
   font-size: 2.8rem;
@@ -830,10 +840,19 @@ textarea {
   max-width: 60rem;
   line-height: 1.7;
 }
+.testimonials__text--profession {
+  font-size: 1.6rem;
+  color: rgba(0, 98, 185, 0.8);
+  max-width: 60rem;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+}
 .testimonials__picture {
   width: 100px;
   object-fit: cover;
-  border-radius: 20px;
+  border: 2px solid rgb(57, 53, 53);
+  border-radius: 50%;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 .testimonials__quote {
   font-size: 1.7rem;
@@ -846,13 +865,18 @@ textarea {
     font-size: 1.8rem;
   }
 }
-.testimonials__rating-container {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
+.testimonials__link {
+  text-decoration: underline;
+  color: rgba(0, 98, 185, 0.8);
+  font-size: 1.6rem;
 }
-.testimonials__star {
-  width: 30px;
+.testimonials__arrow {
+  width: 3rem;
+  cursor: pointer;
+}
+.testimonials__arrow:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
 }
 
 .header {

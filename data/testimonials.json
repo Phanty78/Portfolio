@@ -1,20 +1,23 @@
 [
-    {
-        "name": "test",
-        "pictureURL": "assets/webp/NOOTTY.webp",
-        "quote": "Grâce à Maël, nous avons maintenant le bon Nootty pour travailler",
-        "rating": 5
-    },
-    {
-        "name": "test",
-        "pictureURL": "assets/webp/NOOTTY.webp",
-        "quote": "Grâce à Maël, nous avons maintenant le bon Nootty pour travailler",
-        "rating": 4
-    },
-    {
-        "name": "test",
-        "pictureURL": "assets/webp/NOOTTY.webp",
-        "quote": "Grâce à Maël, nous avons maintenant le bon Nootty pour travailler",
-        "rating": 3
-    }
+  {
+    "name": "Pascal Geay",
+    "profession": "FrontEnd Developer",
+    "pictureURL": "assets/webp/pascal-geay-portrait.webp",
+    "link": "https://www.linkedin.com/in/pascal-geay/",
+    "quote": "Maël montre de grandes qualités de développeur, doublées d'une volonté sans faille pour relever les challenges avec volonté et efficacité. Très bon communicant, il sait aussi assurer la réussite des tâches en autonomie. Ses expériences précédentes lui permettent également de s'intégrer facilement dans une équipe de développeurs et sa curiosité témoigne non seulement de sa réelle motivation mais aussi de sa pertinence pour contribuer au succès. Soulignons que Maël a réussi à terminer sa formation exigeante en avance sur le calendrier et qu'il a toujours apprécié échanger sur les différents sujets qui peuvent animer une équipe de développeurs au quotidien. Je recommande vivement les talents, nombreux, de Maël."
+  },
+  {
+    "name": "Farouk Younsi",
+    "profession": "Full Stack Developer",
+    "link": "https://www.linkedin.com/in/faroukyounsi/",
+    "pictureURL": "assets/webp/farouk-younsi-portrait.webp",
+    "quote": "Maël est un étudiant remarquablement brillant et perspicace qui a fait preuve d'un grand intérêt pour les technologies du web tout au long de notre projet sur Node JS, Express et MongoDB. Bien qu'il m'ait posé de nombreuses questions lors de nos sessions hebdomadaires, j'ai trouvé ses interventions stimulantes et ses questions pertinentes, démontrant ainsi une réelle passion pour le domaine.Mael a été un élément irréprochable lors de nos sessions, fournissant toujours les efforts nécessaires pour atteindre ses objectifs. Ses compétences uniques et sa détermination font de lui un futur employé modèle et exceptionnel. Je le recommande vivement pour tout projet web, car il possède ce petit quelque chose de particulier qui le distingue des autres. Bravo Maël !"
+  },
+  {
+    "name": "Anne Marie Lanchas",
+    "profession": "human resources consultant",
+    "link": "https://www.linkedin.com/in/anne-marie-lanchas/",
+    "pictureURL": "assets/webp/anne-marie-lanchas-portrait.webp",
+    "quote": "Mael est un homme engagé, motivé et ...serein . Sa rigueur et son sens de l'analyse font de lui un collaborateur précieux au sein d'une équipe. Plein de de ressources personnelles et professionnelles, sa maturité est un gage de qualité."
+  }
 ]
