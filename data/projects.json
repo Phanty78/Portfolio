@@ -12,8 +12,9 @@
       "API-REST",
       "Express.js"
     ],
-    "live-link": "https://saas-lettre-motivation-frontend.vercel.app/",
-    "source-link": ""
+    "live-link": "https://www.covletter.xyz/",
+    "source-link": "",
+    "type": "FullStack"
   },
   {
     "title": "Kasa",
@@ -22,7 +23,8 @@
     "imageURL": "assets/webp/kaza-preview.webp",
     "technologies": ["React.js", "Sass", "Figma"],
     "live-link": "https://p6-ocr-react.vercel.app/",
-    "source-link": "https://github.com/Phanty78/P6-OCR-React"
+    "source-link": "https://github.com/Phanty78/P6-OCR-React",
+    "type": "Front"
   },
   {
     "title": "Booki",
@@ -31,7 +33,8 @@
     "imageURL": "assets/webp/booki-preview.webp",
     "technologies": ["HTML5", "CSS3", "Figma"],
     "live-link": "https://p2-ocr-booki.vercel.app/",
-    "source-link": "https://github.com/Phanty78/P2-OCR-Booki"
+    "source-link": "https://github.com/Phanty78/P2-OCR-Booki",
+    "type": "Front"
   },
   {
     "title": "Sophie Bluel - Architecte d'intérieur",
@@ -40,7 +43,8 @@
     "imageURL": "assets/webp/sophie-preview.webp",
     "technologies": ["Vanilla JS - ES6+", "HTML5", "CSS3"],
     "live-link": "",
-    "source-link": "https://github.com/Phanty78/P3-OCR-Javascript"
+    "source-link": "https://github.com/Phanty78/P3-OCR-Javascript",
+    "type": "Front"
   },
   {
     "title": "Nina Carducci - Photographe",
@@ -49,7 +53,8 @@
     "imageURL": "assets/webp/nina-preview.webp",
     "technologies": ["Vanilla JS - ES6+", "Debug", "SEO"],
     "live-link": "https://p5-ocr-debug.vercel.app/",
-    "source-link": "https://github.com/Phanty78/P5-OCR-Debug"
+    "source-link": "https://github.com/Phanty78/P5-OCR-Debug",
+    "type": "Front"
   },
   {
     "title": "Mon Vieux Grimoire",
@@ -58,6 +63,7 @@
     "imageURL": "assets/webp/mon-vieux-grimoire.webp",
     "technologies": ["Node.js", "Express.js", "API-REST"],
     "live-link": "",
-    "source-link": "https://github.com/Phanty78/P7-OCR-Backend-NodeJs"
+    "source-link": "https://github.com/Phanty78/P7-OCR-Backend-NodeJs",
+    "type": "Back"
   }
 ]
