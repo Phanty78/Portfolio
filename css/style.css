@@ -1099,6 +1099,31 @@ textarea {
   }
 }
 
+.filters-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.filter {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+.filter:hover {
+  transform: translateY(-3px);
+  background: #374753;
+  color: white;
+}
+
+.filter--active {
+  background: #374753;
+  color: white;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;

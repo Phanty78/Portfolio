@@ -1,4 +1,4 @@
-import { getData } from './projects.js'
+import { getData } from './shared.js'
 
 const testimonialsURL = 'data/testimonials.json'
 const testimonialsContainer = document.querySelector('.testimonials__container')
