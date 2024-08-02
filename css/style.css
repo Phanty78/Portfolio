@@ -820,6 +820,7 @@ textarea {
   align-items: center;
   background-color: white;
   border-radius: 20px;
+  border: #000 1px solid;
   padding: 2rem;
   min-height: 615px;
 }
@@ -842,7 +843,7 @@ textarea {
 }
 .testimonials__text--profession {
   font-size: 1.6rem;
-  color: rgba(0, 98, 185, 0.8);
+  color: rgba(2, 62, 114, 0.8);
   max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 3rem;

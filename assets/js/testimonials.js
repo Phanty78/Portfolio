@@ -36,6 +36,7 @@ function displayTestimonial(testimonial) {
   const picture = document.createElement('img')
   picture.classList.add('testimonials__picture')
   picture.setAttribute('src', testimonial.pictureURL)
+  picture.setAttribute('alt', `${testimonial.name} picture`)
 
   const quote = document.createElement('blockquote')
   quote.classList.add('testimonials__quote')
