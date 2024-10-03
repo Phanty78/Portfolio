@@ -1,5 +1,15 @@
 [
   {
+    "title": "Shadows of Fortune",
+    "isVisible": true,
+    "description": "A fast, modern website to promote a game being developed on the Sonic blockchain.",
+    "imageURL": "assets/webp/SoF.webp",
+    "technologies": ["Next.js", "TypeScript", "Tailwind"],
+    "live-link": "https://www.shadowsoffortune.com/",
+    "source-link": "https://github.com/Phanty78/shadows-of-fortune",
+    "type": "Front"
+  },
+  {
     "title": "CovLetter",
     "isVisible": true,
     "description": "A SaaS project enabling AI generation of highly personalized cover letters.<br/>Using the OpenAI API.<br/>BackEnd (Node.Js) and FrontEnd (React.Js + TailWind CSS) development.<br/>Under active development.",
