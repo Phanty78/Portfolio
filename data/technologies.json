@@ -63,5 +63,15 @@
     "name": "Tailwind",
     "alt": "Tailwind icon",
     "iconURL": "assets/svg/tailwind.svg"
+  },
+  {
+    "name": "Next.js",
+    "alt": "Next.js icon",
+    "iconURL": "assets/svg/next.svg"
+  },
+  {
+    "name": "TypeScript",
+    "alt": "TypeScript icon",
+    "iconURL": "assets/svg/typescript.svg"
   }
 ]
