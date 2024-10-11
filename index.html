@@ -112,6 +112,11 @@
                 Projects
               </a>
             </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#open-source" class="header__link"
+                >Open Source</a
+              >
+            </li>
 
             <li class="header__link-wrapper">
               <a href="./index.html#testimonials" class="header__link"
@@ -161,6 +166,10 @@
             </li>
 
             <li class="header__sm-menu-link">
+              <a href="./index.html#open-source"> Open Source </a>
+            </li>
+
+            <li class="header__sm-menu-link">
               <a href="./index.html#testimonials" class="header__link"
                 >Testimonials</a
               >
@@ -193,7 +202,7 @@
           </p>
         </div>
         <div class="home-hero__cta">
-          <a href="./#contact" class="btn btn--cta">✅ Currently available</a>
+          <a href="./#contact" class="btn btn--cta">✅ Hire me !</a>
         </div>
         <h2 class="text-primary">
           <br />Based in the Paris region (La Défense)
@@ -322,6 +331,52 @@
       </div>
     </section>
 
+    <section id="open-source" class="open-source sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Open Source</span>
+          <span class="heading-sec__sub">
+            My contributions to open source projects
+          </span>
+        </h2>
+        <div class="open-source__container"></div>
+      </div>
+    </section>
+
+    <div
+      class="modal hidden"
+      aria-hidden="true"
+      role="dialog"
+      aria-labelledby="title-modal-1"
+    >
+      <div class="modal-wrapper">
+        <a
+          href="#open-source"
+          class="close-modal-button"
+          aria-label="Close modal"
+          title="Close modal"
+          ><i class="fa-solid fa-xmark"></i
+        ></a>
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title-and-description">
+              <h3 class="modal-title"></h3>
+              <div class="modal-description"></div>
+            </div>
+            <div class="modal-image-container"></div>
+          </div>
+          <div class="modal-body">
+            <p class="modal-body__contributions-number"></p>
+            <ul class="modal-body__contributions-description"></ul>
+          </div>
+          <div class="modal-footer">
+            <div class="modal-footer__buttons"></div>
+            <div class="modal-footer__thecnologys"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <section id="testimonials" class="about sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
@@ -340,23 +395,43 @@
             Do you have a project or a question? Don't hesitate to contact me!
           </span>
         </h2>
-        <div class="contact__button-container">
-          <a
-            class="btn btn--med dynamicBgClr btn--contact-size"
-            href="mailto:mael.donnart.pro@gmail.com"
-            rel="noopener noreferrer"
-            aria-label="Send an email at Maël Donnart"
-            >Send me an email</a
-          >
-          <a
-            class="btn btn--med dynamicBgClr btn--contact-size"
-            aria-label="link to Maël Donnart Linkedin profile"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/ma%C3%ABl-donnart-09b73b131/"
-            >Contact me via Linkedin</a
-          >
+        <div class="contact__container">
+          <div class="contact__button-container">
+            <a
+              class="btn btn--med dynamicBgClr btn--contact-size btn--malt"
+              href="https://www.malt.fr/profile/maeldonnart"
+              rel="noopener noreferrer"
+              aria-label="Maël Donnart Malt profile"
+              >Hire me on Malt</a
+            >
+            <a
+              class="btn btn--med dynamicBgClr btn--contact-size btn--fiverr"
+              aria-label="Maël Donnart Fiverr profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://fr.fiverr.com/mael_donnart/create-your-website-with-nextjs-and-tailwindcss"
+              >Hire me on Fiverr</a
+            >
+          </div>
+          <div class="contact__button-container">
+            <a
+              class="btn btn--med dynamicBgClr btn--contact-size"
+              href="mailto:mael.donnart.pro@gmail.com"
+              rel="noopener noreferrer"
+              aria-label="Send an email at Maël Donnart"
+              >Send me an email</a
+            >
+            <a
+              class="btn btn--med dynamicBgClr btn--contact-size"
+              aria-label="link to Maël Donnart Linkedin profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/ma%C3%ABl-donnart-09b73b131/"
+              >Contact me via Linkedin</a
+            >
+          </div>
         </div>
+
         <a
           href="./assets/resume/resume_Mael_Donnart.pdf"
           download="resume_Mael_Donnart.pdf"
@@ -422,7 +497,7 @@
         </div>
 
         <div class="main-footer__lower">
-          &copy; Copyright <span class="current-year"></span> Template by
+          &copy; Copyright<span class="current-year"></span> Template by
           <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
             >Ram Maheshwari</a
           >
@@ -434,6 +509,7 @@
     <script src="./assets/js/projects.js" type="module"></script>
     <script src="./assets/js/skills.min.js" type="module"></script>
     <script src="./assets/js/testimonials.js" type="module"></script>
+    <script src="./assets/js/open-source.js" type="module"></script>
     <script>
       document.querySelector('.current-year').textContent =
         new Date().getFullYear()
@@ -456,5 +532,13 @@
       L.control.zoom
     </script>
     <script src="./assets/js/index.min.js"></script>
+    <script>
+      window.va =
+        window.va ||
+        function () {
+          ;(window.vaq = window.vaq || []).push(arguments)
+        }
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
   </body>
 </html>

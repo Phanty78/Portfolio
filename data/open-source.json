@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "HacktoberWall",
+    "image": "assets/png/hacktoberwall-logo.png",
+    "description": "HacktoberWall is a simple yet engaging web app designed to celebrate Hacktoberfest!",
+    "contributionDescription": [
+      "Implementation of a modal system, managing dark mode and responsive",
+      "SEO improvement",
+      "Bug fixes"
+    ],
+    "liveLink": "https://hacktoberwall.formen.cc/",
+    "sourceLink": "https://github.com/JollyJolli/HacktoberWallt",
+    "technologies": ["HTML5", "CSS3", "Vanilla JS - ES6+"]
+  }
+]
