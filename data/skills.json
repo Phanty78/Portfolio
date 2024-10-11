@@ -93,5 +93,10 @@
     "name": "Excellent relationship",
     "isVisible": true,
     "type": "Soft"
+  },
+  {
+    "name": "Vercel",
+    "isVisible": true,
+    "type": "Tool"
   }
 ]

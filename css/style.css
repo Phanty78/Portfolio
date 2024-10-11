@@ -237,6 +237,16 @@ textarea {
   }
 }
 
+.btn--malt {
+  background-color: #fc5757;
+  color: #fff;
+}
+
+.btn--fiverr {
+  background-color: #1dbf73;
+  color: #fff;
+}
+
 .sec-pad {
   padding: 12rem 0;
 }
@@ -645,6 +655,15 @@ textarea {
   .contact__btn {
     width: 100%;
   }
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
 }
 .contact__button-container {
   display: flex;
@@ -1186,4 +1205,39 @@ textarea {
   height: 400px; /* Height of the map */
   width: 100%; /* Width of the map */
   border-radius: 25px;
+}
+
+/* Open source section */
+
+.open-source__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.open-source__card {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  border: #fff 1px solid;
+  padding: 2rem;
+  width: 30%;
+  height: auto;
+}
+
+.open-source__card-img-cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.open-source__card-img {
+  max-width: 3rem;
+  height: auto;
 }

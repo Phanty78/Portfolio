@@ -13,7 +13,7 @@ const fileName = 'projects'
 export function createProject(projectsData, thecData) {
   projectsData.forEach((project) => {
     if (project.isVisible) {
-      // Crate Main containers
+      // Create Main containers
       const projectRowElement = document.createElement('div')
       projectRowElement.classList.add('projects__row')
       const informationContainer = document.createElement('div')
@@ -30,6 +30,7 @@ export function createProject(projectsData, thecData) {
       description.innerHTML = project.description
 
       // Create Technologies list
+      // TODO : refactor code (shared function)
       let techElementsContainer = document.createElement('div')
       techElementsContainer.classList.add(
         'projects__row-content-technologies-container'
