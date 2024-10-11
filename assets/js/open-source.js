@@ -39,7 +39,8 @@ function displayElements(
     // Create addEventListener
     divElement.addEventListener('click', () => {
       displayModal(divElement.id, openSourceData, technologiesData)
-      closeModal()
+      setupCloseModalButton()
+      setupCloseModalOnClickOutside()
     })
   })
 }
@@ -156,13 +157,17 @@ function displayModal(openSourceProjectId, ProjectsData, technologiesData) {
   modal.classList.remove('hidden')
 }
 
-function closeModal() {
+function setupCloseModalButton() {
   const closeModalButton = document.querySelector('.close-modal-button')
   closeModalButton.addEventListener('click', () => {
-    const modal = document.querySelector('.modal')
-    ResetModal()
-    modal.classList.add('hidden')
+    closeModal()
   })
+}
+
+function closeModal() {
+  const modal = document.querySelector('.modal')
+  ResetModal()
+  modal.classList.add('hidden')
 }
 
 function ResetModal() {
@@ -190,6 +195,15 @@ function ResetModal() {
   modalContributionNumber.textContent = ''
   modalFooterButtonsContainer.innerHTML = ''
   modalFooterThechnologiesContainer.innerHTML = ''
+}
+
+function setupCloseModalOnClickOutside() {
+  const modal = document.querySelector('.modal')
+  window.onclick = function (event) {
+    if (event.target === modal) {
+      closeModal()
+    }
+  }
 }
 
 getData(openSourceURL)
