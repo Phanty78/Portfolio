@@ -67,6 +67,8 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
     <link rel="preload" href="css/style.min.css" as="style" />
     <link rel="stylesheet" href="css/style.min.css" />
 
@@ -79,7 +81,7 @@
         "sameAs": [
           "https://github.com/Phanty78",
           "https://twitter.com/anotherhappydev",
-          "https://www.linkedin.com/in/ma%C3%ABl-donnart-09b73b131/"
+          "https://www.linkedin.com/in/mael-donnart"
         ],
         "image": "https://portfolio-mael-donnart.vercel.app/assets/webp/portrait.webp",
         "jobTitle": "Web Developer"
@@ -517,27 +519,23 @@
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
       var map = L.map('map', {
-        center: [48.9896, 1.7001],
-        zoom: 10,
+        center: [48.8566, 2.3522],
+        zoom: 12,
         zoomControl: true,
       })
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributeurs',
       }).addTo(map)
 
-      L.marker([48.9896, 1.7001]).addTo(map)
+      L.marker([48.8566, 2.3522]).addTo(map).bindPopup('Paris').openPopup()
 
-      L.control.zoom
-    </script>
-    <script src="./assets/js/index.min.js"></script>
-    <script>
-      window.va =
-        window.va ||
-        function () {
-          ;(window.vaq = window.vaq || []).push(arguments)
-        }
+      L.control
+        .zoom({
+          position: 'topright',
+        })
+        .addTo(map)
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
   </body>
