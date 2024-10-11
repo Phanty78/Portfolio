@@ -9,8 +9,8 @@
       "SEO improvement",
       "Bug fixes"
     ],
-    "liveLink": "https://hacktoberwall.formen.cc/",
-    "live-link": "https://github.com/JollyJolli/HacktoberWall",
+    "live-link": "https://hacktoberwall.formen.cc/",
+    "source-link": "https://github.com/JollyJolli/HacktoberWall",
     "technologies": ["HTML5", "CSS3", "Vanilla JS - ES6+"]
   }
 ]
