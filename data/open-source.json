@@ -7,7 +7,9 @@
     "contributionDescription": [
       "Implementation of a modal system, managing dark mode and responsive",
       "SEO improvement",
-      "Bug fixes"
+      "Bug fixes",
+      "Add contributors section",
+      "Code enhancement and cleaning"
     ],
     "live-link": "https://hacktoberwall.formen.cc/",
     "source-link": "https://github.com/JollyJolli/HacktoberWall",
