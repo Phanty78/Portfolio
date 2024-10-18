@@ -76,13 +76,18 @@ function displayModal(openSourceProjectId, ProjectsData, technologiesData) {
     (openSourceProject) => openSourceProject.id === projectId
   )
 
+  let contributiontext = 'contributions'
+  if (project.contributionNumber === 1) {
+    contributiontext = 'contribution'
+  }
+
   // Attribute simple values
   modalTitle.textContent = project.title
   modalDescription.textContent = project.description
   modalImage.src = project.image
   modalImage.alt = project.title
   modalContributionNumber.textContent =
-    project.contributionDescription.length + ' contributions'
+    project.contributionNumber + ' ' + contributiontext
 
   // Attribute contribution description values
   for (let i = 0; i < project.contributionDescription.length; i++) {

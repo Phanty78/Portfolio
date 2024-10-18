@@ -1152,6 +1152,7 @@ textarea {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 5rem;
 }
 
 .modal-body__contributions-number {
@@ -1168,6 +1169,7 @@ textarea {
 }
 
 .modal-body__contributions-description {
+  width: 70%;
   font-size: 16px;
   text-align: left;
 }

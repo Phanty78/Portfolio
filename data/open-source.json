@@ -7,10 +7,25 @@
     "contributionDescription": [
       "Implementation of a modal system, managing dark mode and responsive",
       "SEO improvement",
-      "Bug fixes"
+      "Bug fixes",
+      "Add contributors section",
+      "Code enhancement and cleaning",
+      "Implement cookie banner"
     ],
+    "contributionNumber": 10,
     "live-link": "https://hacktoberwall.formen.cc/",
     "source-link": "https://github.com/JollyJolli/HacktoberWall",
     "technologies": ["HTML5", "CSS3", "Vanilla JS - ES6+"]
+  },
+  {
+    "id": 2,
+    "title": "Three2Hope",
+    "image": "assets/webp/three2hope.webp",
+    "description": "Tree2Hope is a website dedicated to promoting the planting of trees as a means of restoring our planet's natural balance",
+    "contributionDescription": ["Bug fixes"],
+    "contributionNumber": 1,
+    "live-link": "https://virtual4087.github.io/Tree2Hope/",
+    "source-link": "https://github.com/Virtual4087/Tree2Hope",
+    "technologies": ["CSS3"]
   }
 ]
