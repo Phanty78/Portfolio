@@ -19,5 +19,12 @@
     "link": "https://www.linkedin.com/in/anne-marie-lanchas/",
     "pictureURL": "assets/webp/anne-marie-lanchas-portrait.webp",
     "quote": "Mael est un homme engagé, motivé et ...serein . Sa rigueur et son sens de l'analyse font de lui un collaborateur précieux au sein d'une équipe. Plein de de ressources personnelles et professionnelles, sa maturité est un gage de qualité."
-  }
+  },
+  {
+    "name": "Andres Formen",
+    "profession": "Computer Science Student",
+    "link": "https://github.com/JollyJolli",
+    "pictureURL": "https://avatars.githubusercontent.com/u/83844571?v=4",
+    "quote": "J'ai eu la chance de collaborer avec Maël en tant que développeur web, et il m'a énormément aidé avec mon site internet à de nombreux niveaux. Son travail est toujours d'une grande qualité et il est capable de réaliser des choses impressionnantes en un temps record, bien plus rapide que la moyenne. Il a su identifier et corriger de nombreux problèmes et erreurs sur mon site, et grâce à lui, celui-ci est maintenant parfaitement optimisé. Sa compétence technique est remarquable, et je ne pourrais être plus satisfait du résultat. Je le recommande vivement à quiconque cherche un développeur web talentueux et efficace. Son travail est tout simplement exceptionnel."
+  }  
 ]
