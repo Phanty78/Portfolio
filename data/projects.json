@@ -1,6 +1,16 @@
 [
   {
-    "title": "Shadows of Fortune",
+    "title": "Shadows of Fortune - Dapp",
+    "isVisible": true,
+    "description": "Development from scratch of a web3 game on the Sonic blockchain.<br /> Teamwork with another developer, use of project management tools and agile method.",
+    "imageURL": "assets/webp/sof-dapp.webp",
+    "technologies": ["Next.js", "Tailwind", "Solidity", "TypeScript"],
+    "live-link": "https://testnet.shadowsoffortune.com/",
+    "source-link": "https://github.com/shadowsoffortune/sof-dapp",
+    "type": "FullStack"
+  },
+  {
+    "title": "Shadows of Fortune - Website",
     "isVisible": true,
     "description": "A fast, modern website to promote a game being developed on the Sonic blockchain.",
     "imageURL": "assets/webp/SoF.webp",

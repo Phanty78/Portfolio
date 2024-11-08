@@ -98,5 +98,15 @@
     "name": "Vercel",
     "isVisible": true,
     "type": "Tool"
+  },
+  {
+    "name": "Canva",
+    "isVisible": true,
+    "type": "Tool"
+  },
+  {
+    "name": "Trello",
+    "isVisible": true,
+    "type": "Tool"
   }
 ]

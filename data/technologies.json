@@ -73,5 +73,10 @@
     "name": "TypeScript",
     "alt": "TypeScript icon",
     "iconURL": "assets/svg/typescript.svg"
+  },
+  {
+    "name": "Solidity",
+    "alt": "Solidity icon",
+    "iconURL": "assets/svg/solidity.svg"
   }
 ]
