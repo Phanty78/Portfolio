@@ -38,6 +38,10 @@ export function createProject(projectsData, thecData) {
       thecData.forEach((techElement) => {
         project.technologies.forEach((projectTechElement) => {
           if (techElement.name === projectTechElement) {
+            const containerElement = document.createElement('div')
+            containerElement.classList.add(
+              'projects__row-content-technologies-container-item'
+            )
             const iconTechElement = document.createElement('img')
             iconTechElement.classList.add(
               'projects__row-content-technologies-container-icon'
@@ -51,8 +55,9 @@ export function createProject(projectsData, thecData) {
               'projects__row-content-technologies-container-name'
             )
             nameTechElement.textContent = techElement.name
-            techElementsContainer.appendChild(iconTechElement)
-            techElementsContainer.appendChild(nameTechElement)
+            containerElement.appendChild(iconTechElement)
+            containerElement.appendChild(nameTechElement)
+            techElementsContainer.appendChild(containerElement)
           }
         })
       })
