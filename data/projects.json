@@ -20,6 +20,16 @@
     "type": "Front"
   },
   {
+    "title": "Otherlights - Website",
+    "isVisible": true,
+    "description": "A landing page for a video game by studio Soleil Artificiel. Fast, efficient and respectful of best practices.",
+    "imageURL": "assets/webp/otherlights.webp",
+    "technologies": ["Next.js", "TypeScript", "Tailwind"],
+    "live-link": "https://www.otherlights.fr/",
+    "source-link": "https://github.com/Phanty78/Otherlights-website",
+    "type": "Front"
+  },
+  {
     "title": "CovLetter",
     "isVisible": true,
     "description": "A SaaS project enabling AI generation of highly personalized cover letters.<br/>Using the OpenAI API.<br/>BackEnd (Node.Js) and FrontEnd (React.Js + TailWind CSS) development.<br/>Under active development.",
