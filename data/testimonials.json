@@ -26,5 +26,12 @@
     "link": "https://github.com/JollyJolli",
     "pictureURL": "https://avatars.githubusercontent.com/u/83844571?v=4",
     "quote": "J'ai eu la chance de collaborer avec Maël en tant que développeur web, et il m'a énormément aidé avec mon site internet à de nombreux niveaux. Son travail est toujours d'une grande qualité et il est capable de réaliser des choses impressionnantes en un temps record, bien plus rapide que la moyenne. Il a su identifier et corriger de nombreux problèmes et erreurs sur mon site, et grâce à lui, celui-ci est maintenant parfaitement optimisé. Sa compétence technique est remarquable, et je ne pourrais être plus satisfait du résultat. Je le recommande vivement à quiconque cherche un développeur web talentueux et efficace. Son travail est tout simplement exceptionnel."
-  }  
+  },
+  {
+    "name": "Robin Villanti",
+    "profession": "Soleil Artificiel President",
+    "link": "https://www.linkedin.com/in/robin-villanti-214a46244/",
+    "pictureURL": "assets/jpg/robinvillanti.jpg",
+    "quote": "Maël a réalisé la création du site internet de notre jeu Otherlights rapidement, en étant attentif aux retours et perfectionniste sur la qualité.Les échanges se sont fait en toute simplicité, ce fut un vrai plaisir !Si vous cherchez de l'efficacité sans prise de tête, vous êtes au bon endroit."
+  }
 ]
