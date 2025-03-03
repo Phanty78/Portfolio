@@ -1,5 +1,15 @@
 [
   {
+    "title": "Neova Worker - Dapp",
+    "isVisible": true,
+    "description": "Development from 0 of a professional application to search for the number of nodes and their status according to a given EVM address (via wallet connection or direct search).  Teamwork with the company director and graphic designer, as well as senior developers for code verification. Special attention to graphics and performance.",
+    "imageURL": "assets/webp/neova-capture.webp",
+    "technologies": ["Next.js", "Tailwind", "TypeScript"],
+    "live-link": "https://worker.neova.io/",
+    "source-link": "",
+    "type": "Front"
+  },
+  {
     "title": "Shadows of Fortune - Dapp",
     "isVisible": true,
     "description": "Development from scratch of a web3 game on the Sonic blockchain.<br /> Teamwork with another developer, use of project management tools and agile method.",

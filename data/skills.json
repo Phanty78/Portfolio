@@ -108,5 +108,10 @@
     "name": "Trello",
     "isVisible": true,
     "type": "Tool"
+  },
+  {
+    "name": "Next.js",
+    "isVisible": true,
+    "type": "Front"
   }
 ]
