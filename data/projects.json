@@ -30,7 +30,7 @@
   {
     "title": "SPLAT — trading automatisé sur Hive",
     "isVisible": true,
-    "description": "Projet personnel : plateforme de trading automatisée de cartes virtuelles sur la blockchain Hive, pour le jeu Splinterlands. Ingestion de marché, stratégies d'achat/vente et tableau de bord.",
+    "description": "Projet personnel : plateforme de trading automatisée de cartes virtuelles sur la blockchain Hive, pour le jeu Splinterlands.",
     "imageURL": "assets/webp/splat.svg",
     "technologies": [
       "Next.js",
