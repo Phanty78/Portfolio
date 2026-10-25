@@ -563,3 +563,10 @@ button.filter:hover {
     grid-template-columns: 1fr;
   }
 }
+
+@media only screen and (max-width: 37.5em) {
+  .home-hero__eyebrow {
+    font-size: 1.3rem;
+    letter-spacing: 0.12em;
+  }
+}
