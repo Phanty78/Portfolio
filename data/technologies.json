@@ -78,5 +78,15 @@
     "name": "Solidity",
     "alt": "Solidity icon",
     "iconURL": "assets/svg/solidity.svg"
+  },
+  {
+    "name": "C++",
+    "alt": "C++ icon",
+    "iconURL": "assets/svg/cpp.svg"
+  },
+  {
+    "name": "Godot",
+    "alt": "Godot icon",
+    "iconURL": "assets/svg/godot.svg"
   }
 ]

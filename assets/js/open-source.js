@@ -1,11 +1,12 @@
 import { getData } from './shared.js'
 
 const openSourceURL = 'data/open-source.json'
-const technologiesURL = '/data/technologies.json'
+const technologiesURL = 'data/technologies.json'
 
 const openSourceProjectsContainer = document.querySelector(
   '.open-source__container'
 )
+let lastFocused = null
 
 function displayElements(
   openSourceData,
@@ -17,6 +18,9 @@ function displayElements(
     const divElement = document.createElement('div')
     divElement.classList.add('open-source__card')
     divElement.setAttribute('id', openSourceProject.id)
+    divElement.setAttribute('tabindex', '0')
+    divElement.setAttribute('role', 'button')
+    divElement.setAttribute('aria-label', `Voir la contribution ${openSourceProject.title}`)
     const imageContainer = document.createElement('div')
     imageContainer.classList.add('open-source__card-img-cont')
     const title = document.createElement('h3')
@@ -37,10 +41,15 @@ function displayElements(
     openSourceProjectsContainer.appendChild(divElement)
 
     // Create addEventListener
-    divElement.addEventListener('click', () => {
+    const openContribution = () => {
       displayModal(divElement.id, openSourceData, technologiesData)
-      setupCloseModalButton()
-      setupCloseModalOnClickOutside()
+    }
+    divElement.addEventListener('click', openContribution)
+    divElement.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault()
+        openContribution()
+      }
     })
   })
 }
@@ -159,7 +168,12 @@ function displayModal(openSourceProjectId, ProjectsData, technologiesData) {
   })
 
   // Display modal
+  lastFocused = document.activeElement
   modal.classList.remove('hidden')
+  modal.setAttribute('aria-hidden', 'false')
+  document.body.style.overflow = 'hidden'
+  const closeButton = modal.querySelector('.close-modal-button')
+  if (closeButton) closeButton.focus()
 }
 
 function setupCloseModalButton() {
@@ -173,6 +187,9 @@ function closeModal() {
   const modal = document.querySelector('.modal')
   ResetModal()
   modal.classList.add('hidden')
+  modal.setAttribute('aria-hidden', 'true')
+  document.body.style.overflow = ''
+  if (lastFocused) lastFocused.focus()
 }
 
 function ResetModal() {
@@ -204,12 +221,19 @@ function ResetModal() {
 
 function setupCloseModalOnClickOutside() {
   const modal = document.querySelector('.modal')
-  window.onclick = function (event) {
-    if (event.target === modal) {
-      closeModal()
-    }
-  }
+  window.addEventListener('click', (event) => {
+    if (event.target === modal) closeModal()
+  })
 }
+
+setupCloseModalButton()
+setupCloseModalOnClickOutside()
+document.addEventListener('keydown', (event) => {
+  const modal = document.querySelector('.modal')
+  if (event.key === 'Escape' && !modal.classList.contains('hidden')) {
+    closeModal()
+  }
+})
 
 getData(openSourceURL)
   .then((openSourceData) => {

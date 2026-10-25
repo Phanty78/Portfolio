@@ -1,109 +1,108 @@
 [
   {
-    "title": "Neova Worker - Dapp",
+    "title": "Otherlights — site officiel",
     "isVisible": true,
-    "description": "Development from 0 of a professional application to search for the number of nodes and their status according to a given EVM address (via wallet connection or direct search).  Teamwork with the company director and graphic designer, as well as senior developers for code verification. Special attention to graphics and performance.",
-    "imageURL": "assets/webp/neova-capture.webp",
-    "technologies": ["Next.js", "Tailwind", "TypeScript"],
-    "live-link": "https://worker.neova.io/",
-    "source-link": "",
-    "type": "Front"
-  },
-  {
-    "title": "Shadows of Fortune - Dapp",
-    "isVisible": true,
-    "description": "Development from scratch of a web3 game on the Sonic blockchain.<br /> Teamwork with another developer, use of project management tools and agile method.",
-    "imageURL": "assets/webp/sof-dapp.webp",
-    "technologies": ["Next.js", "Tailwind", "Solidity", "TypeScript"],
-    "live-link": "",
-    "source-link": "",
-    "type": "FullStack"
-  },
-  {
-    "title": "Shadows of Fortune - Website",
-    "isVisible": true,
-    "description": "A fast, modern website to promote a game being developed on the Sonic blockchain.",
-    "imageURL": "assets/webp/SoF.webp",
-    "technologies": ["Next.js", "TypeScript", "Tailwind"],
-    "live-link": "",
-    "source-link": "https://github.com/Phanty78/shadows-of-fortune",
-    "type": "Front"
-  },
-  {
-    "title": "Otherlights - Website",
-    "isVisible": true,
-    "description": "A landing page for a video game by studio Soleil Artificiel. Fast, efficient and respectful of best practices.",
+    "description": "Site vitrine du jeu Otherlights (Soleil Artificiel) : Next.js, SEO, performance et accessibilité. En ligne sur otherlights.fr.",
     "imageURL": "assets/webp/otherlights.webp",
-    "technologies": ["Next.js", "TypeScript", "Tailwind"],
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind"
+    ],
     "live-link": "https://www.otherlights.fr/",
     "source-link": "https://github.com/Phanty78/Otherlights-website",
-    "type": "Front"
+    "type": "Client"
   },
   {
-    "title": "CovLetter",
+    "title": "Neova — application client",
     "isVisible": true,
-    "description": "A SaaS project enabling AI generation of highly personalized cover letters.<br/>Using the OpenAI API.<br/>BackEnd (Node.Js) and FrontEnd (React.Js + TailWind CSS) development.<br/>Prototype arrêté.",
-    "imageURL": "assets/webp/under-development.webp",
+    "description": "Application complète à partir d'une maquette Figma : interface, intégration et performance. Next.js, TypeScript, Tailwind, contexte web3.",
+    "imageURL": "assets/webp/neova-capture.webp",
     "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind"
+    ],
+    "live-link": "https://worker.neova.io/",
+    "source-link": "",
+    "type": "Client"
+  },
+  {
+    "title": "SPLAT — plateforme de données",
+    "isVisible": true,
+    "description": "Mission freelance via ma société : plateforme Next.js/Node avec ingestion de données, API et PostgreSQL via Prisma. Étude de cas sur demande.",
+    "imageURL": "assets/webp/splat.svg",
+    "technologies": [
+      "Next.js",
       "Node.js",
-      "React.js",
-      "Tailwind",
-      "MongoDB",
-      "API-REST",
-      "Express.js"
+      "TypeScript"
     ],
     "live-link": "",
     "source-link": "",
-    "type": "FullStack"
+    "type": "Client"
   },
   {
-    "title": "Kasa",
+    "title": "Hunger & Thirst — module AzerothCore",
     "isVisible": true,
-    "description": "Development and integration of the Front-End of an ‘AirBnB’-style property rental website.<br/> Use of React.js and hooks as well as Sass for the Css.<br/> Creation of Css animations.Deployment using React best practices.",
-    "imageURL": "assets/webp/kaza-preview.webp",
-    "technologies": ["React.js", "Sass", "Figma"],
-    "live-link": "https://p6-ocr-react.vercel.app/",
-    "source-link": "https://github.com/Phanty78/P6-OCR-React",
-    "type": "Front"
-  },
-  {
-    "title": "Booki",
-    "isVisible": true,
-    "description": "Complete integration of a property rental site based on a Figma model.<br/>Pixel-perfect integration, responsive for phone and tablet, and compliance with the client's specifications.",
-    "imageURL": "assets/webp/booki-preview.webp",
-    "technologies": ["HTML5", "CSS3", "Figma"],
-    "live-link": "https://p2-ocr-booki.vercel.app/",
-    "source-link": "https://github.com/Phanty78/P2-OCR-Booki",
-    "type": "Front"
-  },
-  {
-    "title": "Sophie Bluel - Architecte d'intérieur",
-    "isVisible": true,
-    "description": "Front-end integration of native JavaScript from a static site.<br/>Creation of a filter system for the gallery, an authentication system and modals for adding and deleting items.",
-    "imageURL": "assets/webp/sophie-preview.webp",
-    "technologies": ["Vanilla JS - ES6+", "HTML5", "CSS3"],
+    "description": "Module C++ pour WoW WotLK 3.3.5a : jauges de satiété et d'hydratation persistantes, 32 options, addon client. 1 806 lignes, CI build + codestyle.",
+    "imageURL": "assets/webp/mod-hunger-thirst.svg",
+    "technologies": [
+      "C++"
+    ],
     "live-link": "",
-    "source-link": "https://github.com/Phanty78/P3-OCR-Javascript",
-    "type": "Front"
+    "source-link": "https://github.com/Phanty78/mod-hunger-thirst",
+    "type": "Système"
   },
   {
-    "title": "Nina Carducci - Photographe",
+    "title": "lbc-ts — client Leboncoin",
     "isVisible": true,
-    "description": "Optimised performance, in particular through image management.<br/>Debugging of existing Jqery code.<br/>Improved referencing by implementing good SEO practices.",
-    "imageURL": "assets/webp/nina-preview.webp",
-    "technologies": ["Vanilla JS - ES6+", "Debug", "SEO"],
-    "live-link": "https://p5-ocr-debug.vercel.app/",
-    "source-link": "https://github.com/Phanty78/P5-OCR-Debug",
-    "type": "Front"
-  },
-  {
-    "title": "Mon Vieux Grimoire",
-    "isVisible": true,
-    "description": "Development from scratch of the back end of a book rating website.implementation of a REST API (CRUD) in compliance with a view-controller model architecture.<br/> User authentication management.<br/> Emphasis on security using third-party libraries such as Mongoose or Brute.js.",
-    "imageURL": "assets/webp/mon-vieux-grimoire.webp",
-    "technologies": ["Node.js", "Express.js", "API-REST"],
+    "description": "SDK TypeScript/Bun publié sur npm : @maeldonnart/lbc-ts, typage strict, tests de payloads, licence MIT. Portage de etienne-hd/lbc.",
+    "imageURL": "assets/webp/lbc-ts.svg",
+    "technologies": [
+      "TypeScript",
+      "Node.js"
+    ],
     "live-link": "",
-    "source-link": "https://github.com/Phanty78/P7-OCR-Backend-NodeJs",
-    "type": "Back"
+    "source-link": "https://github.com/Phanty78/lbc-ts",
+    "type": "Outil"
+  },
+  {
+    "title": "GameDevTycoonClone — laboratoire",
+    "isVisible": true,
+    "description": "Clone de Game Dev Tycoon : domaine de simulation pur, 29 tests, auth JWT. L'interface jouable reste à construire — c'est assumé.",
+    "imageURL": "assets/webp/game-dev-tycoon.svg",
+    "technologies": [
+      "TypeScript",
+      "Node.js"
+    ],
+    "live-link": "",
+    "source-link": "https://github.com/Phanty78/GameDevTycoonClone",
+    "type": "Lab"
+  },
+  {
+    "title": "I Want To Be A Game Dev — prototype Godot",
+    "isVisible": true,
+    "description": "Prototype de tycoon en Godot 4.7 : boucle de gestion, notes, revenus. Jouable depuis l'éditeur, pas encore de build distribué.",
+    "imageURL": "assets/webp/i-want-to-be-a-game-dev.svg",
+    "technologies": [
+      "Godot"
+    ],
+    "live-link": "",
+    "source-link": "https://github.com/Phanty78/i-want-to-be-a-game-dev",
+    "type": "Lab"
+  },
+  {
+    "title": "Steam Game Picker",
+    "isVisible": true,
+    "description": "Petite application Next.js qui choisit un jeu dans une bibliothèque Steam. En ligne, licence Apache-2.0.",
+    "imageURL": "assets/webp/steam-game-picker.svg",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind"
+    ],
+    "live-link": "https://steam-game-picker-kappa.vercel.app/",
+    "source-link": "https://github.com/Phanty78/steamGamePicker",
+    "type": "Lab"
   }
 ]

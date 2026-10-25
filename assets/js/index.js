@@ -1,4 +1,4 @@
-// ---
+// Menu mobile + logo cliquable
 const hamMenuBtn = document.querySelector('.header__main-ham-menu-cont')
 const smallMenu = document.querySelector('.header__sm-menu')
 const headerHamMenuBtn = document.querySelector('.header__main-ham-menu')
@@ -7,18 +7,18 @@ const headerHamMenuCloseBtn = document.querySelector(
 )
 const headerSmallMenuLinks = document.querySelectorAll('.header__sm-menu-link')
 
-hamMenuBtn.addEventListener('click', () => {
-  if (smallMenu.classList.contains('header__sm-menu--active')) {
-    smallMenu.classList.remove('header__sm-menu--active')
-  } else {
-    smallMenu.classList.add('header__sm-menu--active')
-  }
-  if (headerHamMenuBtn.classList.contains('d-none')) {
-    headerHamMenuBtn.classList.remove('d-none')
-    headerHamMenuCloseBtn.classList.add('d-none')
-  } else {
-    headerHamMenuBtn.classList.add('d-none')
-    headerHamMenuCloseBtn.classList.remove('d-none')
+function toggleMenu() {
+  const isOpen = smallMenu.classList.toggle('header__sm-menu--active')
+  headerHamMenuBtn.classList.toggle('d-none', isOpen)
+  headerHamMenuCloseBtn.classList.toggle('d-none', !isOpen)
+  hamMenuBtn.setAttribute('aria-expanded', String(isOpen))
+}
+
+hamMenuBtn.addEventListener('click', toggleMenu)
+hamMenuBtn.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter' || event.key === ' ') {
+    event.preventDefault()
+    toggleMenu()
   }
 })
 
@@ -27,12 +27,18 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
     smallMenu.classList.remove('header__sm-menu--active')
     headerHamMenuBtn.classList.remove('d-none')
     headerHamMenuCloseBtn.classList.add('d-none')
+    hamMenuBtn.setAttribute('aria-expanded', 'false')
   })
 }
 
-// ---
-const headerLogoConatiner = document.querySelector('.header__logo-container')
+const headerLogoContainer = document.querySelector('.header__logo-container')
 
-headerLogoConatiner.addEventListener('click', () => {
+headerLogoContainer.addEventListener('click', () => {
   location.href = 'index.html'
+})
+headerLogoContainer.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter' || event.key === ' ') {
+    event.preventDefault()
+    location.href = 'index.html'
+  }
 })

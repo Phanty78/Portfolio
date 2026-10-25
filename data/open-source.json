@@ -3,16 +3,14 @@
     "id": 1,
     "title": "HacktoberWall",
     "image": "assets/png/hacktoberwall-logo.png",
-    "description": "HacktoberWall is a simple yet engaging web app designed to celebrate Hacktoberfest!",
+    "description": "Contribution à HacktoberWall, projet open source de la communauté Hacktoberfest 2024 : modale, section contributeurs, bandeau cookies, refactor et optimisation des assets.",
     "contributionDescription": [
-      "Implementation of a modal system, managing dark mode and responsive",
-      "SEO improvements",
-      "Bugs fixes",
-      "Add contributors section",
-      "Code enhancement and cleaning",
-      "Implement cookie banner",
-      "Code checking and validation",
-      "Perfomance improvement"
+      "Mise en place d'une modale accessible en remplacement des alertes",
+      "Ajout d'une section contributeurs et du chargement JSON",
+      "Bandeau cookies et gestion du consentement",
+      "Extraction du CSS inline et refactor de app.js",
+      "Réorganisation des assets et conversion WebP",
+      "Revue et fusion de PR tierces"
     ],
     "contributionNumber": 18,
     "live-link": "https://hacktoberwall.formen.cc/",
@@ -21,10 +19,13 @@
   },
   {
     "id": 2,
-    "title": "Three2Hope",
+    "title": "Tree2Hope",
     "image": "assets/webp/three2hope.webp",
-    "description": "Tree2Hope is a website dedicated to promoting the planting of trees as a means of restoring our planet's natural balance",
-    "contributionDescription": ["Bug fixes"],
+    "description": "Correction du footer de la page À propos sur le site caritatif Tree2Hope (PR #157, octobre 2024).",
+    "contributionDescription": [
+      "Suppression d'un display:none qui masquait le footer",
+      "Vérification du rendu sur la page About"
+    ],
     "contributionNumber": 1,
     "live-link": "https://virtual4087.github.io/Tree2Hope/",
     "source-link": "https://github.com/Virtual4087/Tree2Hope",

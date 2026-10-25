@@ -13,9 +13,10 @@ export async function getData(url) {
 
 export function createFilters(filtersArray, filtersContainer) {
   filtersArray.forEach((filter) => {
-    const filterElement = document.createElement('p')
+    const filterElement = document.createElement('button')
+    filterElement.type = 'button'
     filterElement.classList.add('filter')
-    if (filter === 'All') {
+    if (filter === 'Tout') {
       filterElement.classList.add('filter--active')
     }
     filterElement.textContent = filter
@@ -59,7 +60,7 @@ export function UpdateElements(
   filteredElementsContainer.innerHTML = ''
   if (fileName === 'skills') {
     Data.forEach((filteredElement) => {
-      if (filterTag === 'All') {
+      if (filterTag === 'Tout') {
         if (filteredElement.isVisible === true) {
           displayElements(filteredElement, filteredElementsContainer)
         }
@@ -73,7 +74,7 @@ export function UpdateElements(
       }
     })
   } else if (fileName === 'projects') {
-    if (filterTag === 'All') {
+    if (filterTag === 'Tout') {
       createProject(Data, thecData)
     } else {
       const filteredProjects = Data.filter((project) =>

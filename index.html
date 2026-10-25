@@ -1,63 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
-    <title>Maël Donnart, Web developer</title>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Maël Donnart — Développeur full-stack & workflows IA</title>
     <meta
       name="description"
-      content="Creative front-end web developer who enjoys designing and developing responsive websites. Proficient in HTML5, CSS3, JavaScript, and React. Passionate about UX/UI design and emerging technologies. Currently seeking new opportunities."
+      content="Développeur full-stack en agence, missions freelance via ma société. TypeScript, Bun, C++, Godot, workflows IA et orchestration d'agents multiples."
     />
     <meta name="robots" content="index,follow,noodp" />
-    <meta name="googlebot" content="index,follow" />
+    <meta name="theme-color" content="#0b1220" />
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@anotherhappydev" />
-    <meta name="twitter:creator" content="@anotherhappydev" />
-    <meta name="twitter:title" content="Web developer" />
-    <meta
-      name="twitter:description"
-      content="A passionate French web developer at the service of your projects"
-    />
-    <meta
-      name="twitter:image"
-      content="https://portfolio-mael-donnart.vercel.app/assets/webp/portrait.webp"
-    />
-
-    <meta property="og:title" content="Maël Donnart- Web Developer Portfolio" />
+    <meta property="og:title" content="Maël Donnart — Développeur full-stack" />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://portfolio-mael-donnart.vercel.app/" />
     <meta
-      property="og:url"
-      content="https://portfolio-mael-donnart.vercel.app/"
+      property="og:description"
+      content="Développeur full-stack en agence, missions freelance via ma société. Web, systèmes et jeux — avec des workflows IA et des agents multiples."
     />
     <meta
       property="og:image"
       content="https://portfolio-mael-donnart.vercel.app/assets/webp/portrait.webp"
     />
-    <meta
-      property="og:description"
-      content="Experienced front-end web developer specializing in creating modern, responsive user interfaces."
-    />
-    <meta
-      property="og:site_name"
-      content="Maël Donnart - Web Developer Portfolio"
-    />
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Maël Donnart — Portfolio" />
+    <meta property="og:locale" content="fr_FR" />
 
     <link rel="canonical" href="https://portfolio-mael-donnart.vercel.app/" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-    <link
-      rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      as="style"
-    />
     <link rel="icon" type="image/x-icon" href="./assets/ico/favicon.ico" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -66,128 +34,104 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <link rel="preload" href="css/style.min.css" as="style" />
     <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
 
     <script type="application/ld+json">
       {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "Person",
         "name": "Maël Donnart",
         "url": "https://portfolio-mael-donnart.vercel.app/",
+        "image": "https://portfolio-mael-donnart.vercel.app/assets/webp/portrait.webp",
+        "jobTitle": "Développeur full-stack",
         "sameAs": [
           "https://github.com/Phanty78",
-          "https://twitter.com/anotherhappydev",
-          "https://www.linkedin.com/in/mael-donnart"
+          "https://www.linkedin.com/in/mael-donnart/",
+          "https://www.malt.fr/profile/maeldonnart"
         ],
-        "image": "https://portfolio-mael-donnart.vercel.app/assets/webp/portrait.webp",
-        "jobTitle": "Web Developer"
+        "knowsAbout": [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Node.js",
+          "Bun",
+          "C++",
+          "Godot",
+          "PostgreSQL",
+          "Prisma",
+          "workflows IA",
+          "orchestration d'agents"
+        ]
       }
     </script>
   </head>
   <body>
     <header class="header">
       <div class="header__content">
-        <div class="header__logo-container">
+        <div class="header__logo-container" role="link" tabindex="0" aria-label="Retour à l'accueil">
           <div class="header__logo-img-cont">
             <img
               src="./assets/webp/portrait.webp"
-              alt="Maël Donnart Logo Image"
+              alt="Portrait de Maël Donnart"
               class="header__logo-img"
             />
           </div>
           <span class="header__logo-sub">Maël Donnart</span>
         </div>
-        <nav class="header__main">
+        <nav class="header__main" aria-label="Navigation principale">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link">Home</a>
+              <a href="#about" class="header__link">À propos</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About</a>
+              <a href="#ia" class="header__link">IA & workflows</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
+              <a href="#projects" class="header__link">Projets</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#open-source" class="header__link"
-                >Open Source</a
-              >
-            </li>
-
-            <li class="header__link-wrapper">
-              <a href="./index.html#testimonials" class="header__link"
-                >Testimonials</a
-              >
-            </li>
-
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link">Contact</a>
+              <a href="#experience" class="header__link">Parcours</a>
             </li>
             <li class="header__link-wrapper">
-              <a
-                href="./assets/resume/CV-mael-donnart.pdf"
-                download="CV-mael-donnart.pdf"
-                class="header__link"
-                >Download my resume</a
-              >
+              <a href="#open-source" class="header__link">Open source</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="#testimonials" class="header__link">Témoignages</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="#contact" class="header__link">Contact</a>
             </li>
           </ul>
-          <div class="header__main-ham-menu-cont">
+          <div class="header__main-ham-menu-cont" role="button" tabindex="0" aria-label="Ouvrir le menu" aria-expanded="false">
             <img
               src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
+              alt="Ouvrir le menu"
               class="header__main-ham-menu"
             />
             <img
               src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
+              alt="Fermer le menu"
               class="header__main-ham-menu-close d-none"
             />
           </div>
         </nav>
       </div>
       <div class="header__sm-menu">
-        <nav class="header__sm-menu-content">
+        <nav class="header__sm-menu-content" aria-label="Navigation mobile">
           <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#open-source"> Open Source </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#testimonials" class="header__link"
-                >Testimonials</a
-              >
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a
-                href="./assets/resume/CV-mael-donnart.pdf"
-                download="CV-mael-donnart.pdf"
-                >Download my resume</a
-              >
-            </li>
+            <li class="header__sm-menu-link"><a href="#about">À propos</a></li>
+            <li class="header__sm-menu-link"><a href="#ia">IA & workflows</a></li>
+            <li class="header__sm-menu-link"><a href="#projects">Projets</a></li>
+            <li class="header__sm-menu-link"><a href="#experience">Parcours</a></li>
+            <li class="header__sm-menu-link"><a href="#open-source">Open source</a></li>
+            <li class="header__sm-menu-link"><a href="#testimonials">Témoignages</a></li>
+            <li class="header__sm-menu-link"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -195,33 +139,32 @@
 
     <section class="home-hero">
       <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is <br />Maël Donnart</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            I'm a passionate web developer who's constantly learning.<br />
-            Want to find out more?<br />
-            Click here !
-          </p>
-        </div>
+        <p class="home-hero__eyebrow">Développeur full-stack · web, systèmes et jeux</p>
+        <h1 class="heading-primary">Maël Donnart</h1>
+        <p class="text-primary">
+          Je construis des applications web, des outils et des jeux — et je documente
+          ce qui fonctionne comme ce qui reste à finir.
+        </p>
+        <p class="hero__status">
+          En poste chez Nowwweb · missions freelance via ma société
+        </p>
         <div class="home-hero__cta">
-          <a href="./#contact" class="btn btn--cta">✅ Hire me !</a>
+          <a href="#projects" class="btn btn--cta">Voir mes projets</a>
+          <a href="#contact" class="btn btn--med btn--theme">Me contacter</a>
         </div>
-        <h2 class="text-primary">
-          <br />Based in the Paris region (La Défense)
-        </h2>
       </div>
       <div class="home-hero__socials">
         <div class="home-hero__social">
           <a
             href="https://www.linkedin.com/in/mael-donnart/"
-            aria-label="link to Maël Donnart Linkedin profile"
+            aria-label="Profil LinkedIn de Maël Donnart"
             target="_blank"
             rel="noopener noreferrer"
             class="home-hero__social-icon-link"
           >
             <img
               src="./assets/png/linkedin-ico.png"
-              alt="linkedin icon"
+              alt="LinkedIn"
               class="home-hero__social-icon"
             />
           </a>
@@ -229,29 +172,14 @@
         <div class="home-hero__social">
           <a
             href="https://github.com/Phanty78"
-            aria-label="link to Maël Donnart Github profile"
+            aria-label="Profil GitHub de Maël Donnart"
             target="_blank"
             rel="noopener noreferrer"
             class="home-hero__social-icon-link"
           >
             <img
               src="./assets/png/github-ico.png"
-              alt="github icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a
-            href="https://twitter.com/anotherhappydev"
-            aria-label="link to Maël Donnart Twitter profile"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="home-hero__social-icon-link"
-          >
-            <img
-              src="./assets/png/twitter-ico.png"
-              alt="twitter icon"
+              alt="GitHub"
               class="home-hero__social-icon"
             />
           </a>
@@ -265,104 +193,361 @@
     <section id="about" class="about sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
-          <span class="heading-sec__sub">
-            <!-- Sous titre, remplir si besoin-->
-          </span>
+          <span class="heading-sec__main">À propos</span>
+          <span class="heading-sec__sub">Le web, les systèmes et les jeux</span>
         </h2>
         <div class="about__content">
           <div class="about__content-primary">
             <div class="about__content-main">
-              <h3 class="about__content-title">Get to know me!</h3>
+              <h3 class="about__content-title">Mon parcours</h3>
               <div class="about__content-details">
                 <p class="about__content-details-para">
-                  Hello ! My name is <strong>Maël</strong>, and I'm a web
-                  developer.
+                  Après une première carrière dans le commerce, je me suis reconverti
+                  au développement web. J'ai validé la formation
+                  <strong>OpenClassrooms</strong> (certification RNCP 2024) et je
+                  travaille aujourd'hui en agence.
                 </p>
                 <p class="about__content-details-para">
-                  I took the initiative of learning to code myself in order to
-                  acquire the knowledge and skills needed to turn my ideas into
-                  reality, and then I joined the
-                  <strong>Open Classroom</strong> web developer training course
-                  to validate my skills and obtain
-                  <strong>certification</strong>.
+                  Je suis <strong>développeur full-stack chez Nowwweb</strong>
+                  (Agence NWB). À côté, je mène des
+                  <strong>missions freelance via ma société</strong> : applications
+                  Next.js/Node, sites clients, intégration et performance.
                 </p>
                 <p class="about__content-details-para">
-                  Along the way, I acquired expertise in the design and
-                  development of
-                  <strong>visually attractive and functional websites</strong>.
-                  I'm dedicated to creating websites that don't just look good,
-                  but work seamlessly to deliver the best possible user
-                  experience.
+                  J'aime les trois niveaux du métier : le <strong>web</strong>
+                  (TypeScript, Bun, React, Next.js), les
+                  <strong>systèmes</strong> (C++ sur AzerothCore) et les
+                  <strong>jeux</strong> (GDScript sur Godot). J'utilise des workflows
+                  IA et des agents multiples pour explorer, coder et relire — avec des
+                  tests, de la CI et une revue humaine comme garde-fous.
                 </p>
                 <p class="about__content-details-para">
-                  In addition, I have a passion for <strong>AI</strong> and
-                  <strong>Web3</strong>, and it's a world I learn about every
-                  day.
+                  Ce portfolio documente ce qui marche, ce qui reste à finir, et
+                  comment je travaille.
                 </p>
               </div>
-              <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-                >Contact me</a
+              <a href="#contact" class="btn btn--med btn--theme dynamicBgClr"
+                >Discuter d'un projet</a
               >
             </div>
             <div class="about__content-skills">
-              <h3 class="about__content-title">My Skills</h3>
-              <div
-                id="skills__filters__container"
-                class="filters-container"
-              ></div>
+              <h3 class="about__content-title">Compétences</h3>
+              <div id="skills__filters__container" class="filters-container"></div>
               <div class="skills"></div>
             </div>
           </div>
-          <div class="about__content-map">
-            <h3 class="about__content-title">Where I am</h3>
-            <div id="map"></div>
+          <div class="about__content-location">
+            <h3 class="about__content-title">Disponibilité</h3>
+            <p><strong>Paris, France</strong> · remote friendly</p>
+            <p>En poste chez Nowwweb · missions freelance via ma société.</p>
+            <a href="#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Me contacter</a
+            >
           </div>
         </div>
+      </div>
+    </section>
+
+    <section id="ia" class="ai sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">IA & workflows</span>
+          <span class="heading-sec__sub"
+            >Je construis avec des agents, pas à leur place.</span
+          >
+        </h2>
+        <p class="ai__lead">
+          Mon intérêt n'est pas « d'utiliser l'IA », mais de savoir
+          <strong>découper un problème</strong>, lancer plusieurs agents en parallèle,
+          vérifier leurs sorties et garder la décision. Le code reste revu, testé et
+          documenté.
+        </p>
+        <div class="ai__grid">
+          <article class="ai__card">
+            <h3>Développement assisté</h3>
+            <p>
+              Claude Code et Codex pour explorer, proposer et implémenter. Les
+              conventions et les critères d'acceptation sont écrits dans des
+              <code>CLAUDE.md</code>, pas improvisés à chaque session.
+            </p>
+          </article>
+          <article class="ai__card">
+            <h3>Orchestration multi-agents</h3>
+            <p>
+              OMP et Tern pour piloter des agents et un navigateur automatisé :
+              découpage en lentilles indépendantes, exécution parallèle, consolidation
+              des preuves. Exemple : audit de 44 dépôts avec 6 agents, puis archivage,
+              passage en privé et suppression vérifiés.
+            </p>
+          </article>
+          <article class="ai__card">
+            <h3>Modèles locaux</h3>
+            <p>
+              Ollama pour prototyper sans envoyer de données à un service tiers :
+              tests de prompts, extraction, classification, expérimentation de
+              workflows hors ligne.
+            </p>
+          </article>
+          <article class="ai__card">
+            <h3>Garde-fous</h3>
+            <p>
+              Tests, CI, link checks et documentation des limites. Un agent peut
+              accélérer une tâche ; il ne remplace ni la revue humaine ni la preuve
+              d'exécution.
+            </p>
+          </article>
+        </div>
+        <p class="ai__stack">
+          Bun · Claude Code · Codex · Ollama · OMP · Tern
+        </p>
+        <p class="ai__proof">
+          Exemples : <a href="https://github.com/Phanty78/GameDevTycoonClone">GameDevTycoonClone</a>
+          (29 tests, conventions <code>CLAUDE.md</code>) et
+          <a href="https://github.com/Phanty78/skill-antoine">skill-antoine</a>
+          (skill de précepteur pour Claude Code).
+        </p>
       </div>
     </section>
 
     <section id="projects" class="projects sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
-          <span class="heading-sec__sub"> Checkout a few of my works! </span>
+          <span class="heading-sec__main">Projets</span>
+          <span class="heading-sec__sub"
+            >Clients, systèmes et laboratoires personnels.</span
+          >
         </h2>
         <div id="project__filters__container" class="filters-container"></div>
         <div class="projects__content"></div>
+        <div id="formation" class="formation">
+          <h3>Formation</h3>
+          <p>
+            OpenClassrooms 2023–2024, certification RNCP. Cinq projets d'intégration
+            et de développement web :
+            <a href="https://github.com/Phanty78/P2-OCR-Booki">Booki</a>,
+            <a href="https://github.com/Phanty78/P3-OCR-Javascript">Sophie Bluel</a>,
+            <a href="https://github.com/Phanty78/P5-OCR-Debug">Nina Carducci</a>,
+            <a href="https://github.com/Phanty78/P6-OCR-React">Kasa</a>,
+            <a href="https://github.com/Phanty78/P7-OCR-Backend-NodeJs">Mon Vieux Grimoire</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Parcours</span>
+          <span class="heading-sec__sub">Du commerce au full-stack.</span>
+        </h2>
+        <div class="timeline">
+          <article class="timeline__item">
+            <p class="timeline__date">2025 — aujourd'hui</p>
+            <div class="timeline__content">
+              <h3>Nowwweb (Agence NWB) · Développeur full-stack</h3>
+              <p>
+                Applications web, code legacy PHP/JS, TypeScript/Next.js. Travail en
+                agence avec les designers et les développeurs.
+              </p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <p class="timeline__date">2025</p>
+            <div class="timeline__content">
+              <h3>SPLAT (Hive) · Mission freelance via ma société</h3>
+              <p>
+                Plateforme Next.js/Node : ingestion de données, API, PostgreSQL via
+                Prisma. Étude de cas disponible sur demande.
+              </p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <p class="timeline__date">2024 — 2025</p>
+            <div class="timeline__content">
+              <h3>Neova · Application client</h3>
+              <p>
+                Application complète Next.js/Tailwind, interface et intégration,
+                contexte web3 (Wagmi/RainbowKit).
+              </p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <p class="timeline__date">2023 — 2024</p>
+            <div class="timeline__content">
+              <h3>OpenClassrooms + freelance</h3>
+              <p>
+                Reconversion, certification RNCP 2024, premiers sites clients
+                (Otherlights, Shadows of Fortune). Projets archivés sur GitHub.
+              </p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <p class="timeline__date">2021 — 2023</p>
+            <div class="timeline__content">
+              <h3>Commercial · Gesteos</h3>
+              <p>
+                Prospection, démonstration et déploiement de logiciels. La base
+                commerciale qui m'aide encore à comprendre les besoins clients.
+              </p>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
     <section id="open-source" class="open-source sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Open Source</span>
-          <span class="heading-sec__sub">
-            My contributions to open source projects
-          </span>
+          <span class="heading-sec__main">Open source</span>
+          <span class="heading-sec__sub"
+            >Contributions à des projets existants.</span
+          >
         </h2>
         <div class="open-source__container"></div>
       </div>
     </section>
 
+    <section id="testimonials" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Témoignages</span>
+          <span class="heading-sec__sub">Ce qu'on dit de mon travail.</span>
+        </h2>
+        <div class="testimonials__container"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Un projet, une mission, une question ? Écrivez-moi.
+          </span>
+        </h2>
+        <div class="contact__container">
+          <div class="contact__button-container">
+            <a
+              class="btn btn--med dynamicBgClr btn--contact-size btn--malt"
+              href="https://www.malt.fr/profile/maeldonnart"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Profil Malt de Maël Donnart"
+              >Missions freelance sur Malt</a
+            >
+          </div>
+          <div class="contact__button-container">
+            <a
+              class="btn btn--med dynamicBgClr btn--contact-size"
+              href="mailto:mael.donnart.pro@gmail.com"
+              rel="noopener noreferrer"
+              aria-label="Envoyer un email à Maël Donnart"
+              >Envoyer un email</a
+            >
+            <a
+              class="btn btn--med dynamicBgClr btn--contact-size"
+              aria-label="Profil LinkedIn de Maël Donnart"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/mael-donnart/"
+              >LinkedIn</a
+            >
+            <a
+              class="btn btn--med dynamicBgClr btn--contact-size"
+              aria-label="Profil GitHub de Maël Donnart"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Phanty78"
+              >GitHub</a
+            >
+          </div>
+        </div>
+        <p class="contact__note">
+          En poste chez Nowwweb · missions freelance via ma société · Paris, France.
+        </p>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Réseaux</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a
+                aria-label="Profil LinkedIn de Maël Donnart"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/mael-donnart/"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="LinkedIn"
+                />
+              </a>
+              <a
+                aria-label="Profil GitHub de Maël Donnart"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/Phanty78"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="GitHub"
+                />
+              </a>
+              <a
+                aria-label="Profil Malt de Maël Donnart"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.malt.fr/profile/maeldonnart"
+                class="main-footer__text-link"
+                >Malt</a
+              >
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h2 class="heading heading-sm text-lt">Maël Donnart</h2>
+            <p class="main-footer__short-desc">
+              Développeur full-stack — web, systèmes et jeux.
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; <span class="current-year"></span> Maël Donnart · Template
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >dopefolio</a
+          >
+          (GPL-3.0)
+        </div>
+      </div>
+    </footer>
+
     <div
       class="modal hidden"
       aria-hidden="true"
       role="dialog"
-      aria-labelledby="title-modal-1"
+      aria-modal="true"
+      aria-labelledby="modal-title"
     >
       <div class="modal-wrapper">
-        <a
-          href="#open-source"
+        <button
+          type="button"
           class="close-modal-button"
-          aria-label="Close modal"
-          title="Close modal"
-          ><i class="fa-solid fa-xmark"></i
-        ></a>
+          aria-label="Fermer la fenêtre"
+          title="Fermer"
+        >
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
         <div class="modal-content">
           <div class="modal-header">
             <div class="modal-title-and-description">
-              <h3 class="modal-title"></h3>
+              <h3 class="modal-title" id="modal-title"></h3>
               <div class="modal-description"></div>
             </div>
             <div class="modal-image-container"></div>
@@ -379,128 +564,7 @@
       </div>
     </div>
 
-    <section id="testimonials" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Testimonials</span>
-          <span class="heading-sec__sub"> What people say about me</span>
-        </h2>
-        <div class="testimonials__container"></div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <span class="heading-sec__sub heading-sec__sub--lt">
-            Do you have a project or a question? Don't hesitate to contact me!
-          </span>
-        </h2>
-        <div class="contact__container">
-          <div class="contact__button-container">
-            <a
-              class="btn btn--med dynamicBgClr btn--contact-size btn--malt"
-              href="https://www.malt.fr/profile/maeldonnart"
-              rel="noopener noreferrer"
-              target="_blank"
-              aria-label="Maël Donnart Malt profile"
-              >Hire me on Malt</a
-            >
-          </div>
-          <div class="contact__button-container">
-            <a
-              class="btn btn--med dynamicBgClr btn--contact-size"
-              href="mailto:mael.donnart.pro@gmail.com"
-              rel="noopener noreferrer"
-              target="_blank"
-              aria-label="Send an email at Maël Donnart"
-              >Send me an email</a
-            >
-            <a
-              class="btn btn--med dynamicBgClr btn--contact-size"
-              aria-label="link to Maël Donnart Linkedin profile"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/mael-donnart/"
-              >Contact me via Linkedin</a
-            >
-          </div>
-        </div>
-
-        <a
-          href="./assets/resume/CV-mael-donnart.pdf"
-          download="CV-mael-donnart.pdf"
-          class="contact__link"
-          >Download my resume</a
-        >
-      </div>
-    </section>
-
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Socials</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a
-                aria-label="link to Maël Donnart Linkedin profile"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/mael-donnart/"
-              >
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="linkedin icon"
-                />
-              </a>
-              <a
-                aria-label="link to Maël Donnart GitHub profile"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/Phanty78"
-              >
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="github icon"
-                />
-              </a>
-              <a
-                aria-label="link to Maël Donnart Twitter profile"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://twitter.com/anotherhappydev"
-              >
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="twitter icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h2 class="heading heading-sm text-lt">Maël Donnart</h2>
-            <p class="main-footer__short-desc">
-              Web developer specialized in front-end development for your
-              projects
-            </p>
-          </div>
-        </div>
-
-        <div class="main-footer__lower">
-          &copy; Copyright<span class="current-year"></span> Template by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
-        </div>
-      </div>
-    </footer>
-
+    <script src="./assets/js/index.js"></script>
     <script src="./assets/js/shared.js" type="module"></script>
     <script src="./assets/js/projects.js" type="module"></script>
     <script src="./assets/js/skills.js" type="module"></script>
@@ -510,27 +574,5 @@
       document.querySelector('.current-year').textContent =
         new Date().getFullYear()
     </script>
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script>
-      var map = L.map('map', {
-        center: [48.8566, 2.3522],
-        zoom: 12,
-        zoomControl: true,
-      })
-
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributeurs',
-      }).addTo(map)
-
-      L.marker([48.8566, 2.3522]).addTo(map).bindPopup('Paris').openPopup()
-
-      L.control
-        .zoom({
-          position: 'topright',
-        })
-        .addTo(map)
-    </script>
-    <script defer src="/_vercel/insights/script.js"></script>
   </body>
 </html>

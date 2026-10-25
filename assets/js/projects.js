@@ -1,13 +1,13 @@
 import { createFilters, getData, toggleActiveFilter } from './shared.js'
-const projectsURL = '/data/projects.json'
-const technologiesURL = '/data/technologies.json'
+const projectsURL = 'data/projects.json'
+const technologiesURL = 'data/technologies.json'
 
 const projectsContent = document.querySelector('.projects__content')
 const projectsFilterContainer = document.getElementById(
   'project__filters__container'
 )
-const filtersArray = ['All', 'Front', 'Back', 'FullStack']
-let filterTag = 'All'
+const filtersArray = ['Tout', 'Client', 'Système', 'Outil', 'Lab']
+let filterTag = 'Tout'
 const fileName = 'projects'
 
 export function createProject(projectsData, thecData) {

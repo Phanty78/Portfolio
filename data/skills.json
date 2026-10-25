@@ -1,38 +1,38 @@
 [
   {
-    "name": "HTML5",
+    "name": "TypeScript",
     "isVisible": true,
-    "type": "Front"
+    "type": "Web"
   },
   {
-    "name": "CSS3 / Sass",
+    "name": "JavaScript",
     "isVisible": true,
-    "type": "Front"
+    "type": "Web"
   },
   {
-    "name": "JavaScript ES6+",
+    "name": "React",
     "isVisible": true,
-    "type": "Front Back"
+    "type": "Web"
   },
   {
-    "name": "React.js",
+    "name": "Next.js",
     "isVisible": true,
-    "type": "Front"
+    "type": "Web"
   },
   {
-    "name": "Git and Github",
+    "name": "Tailwind",
     "isVisible": true,
-    "type": "Tool"
+    "type": "Web"
   },
   {
-    "name": "Figma",
+    "name": "HTML / CSS",
     "isVisible": true,
-    "type": "Front"
+    "type": "Web"
   },
   {
-    "name": "Vite",
+    "name": "SEO / accessibilité",
     "isVisible": true,
-    "type": "Tool"
+    "type": "Web"
   },
   {
     "name": "Node.js",
@@ -40,78 +40,88 @@
     "type": "Back"
   },
   {
-    "name": "Express.js",
+    "name": "Bun",
     "isVisible": true,
     "type": "Back"
   },
   {
-    "name": "SEO Optimization",
-    "isVisible": true,
-    "type": "Front"
-  },
-  {
-    "name": "Mobile First",
-    "isVisible": true,
-    "type": "Front"
-  },
-  {
-    "name": "Api Rest - Call Fetch",
+    "name": "Hono",
     "isVisible": true,
     "type": "Back"
   },
   {
-    "name": "Core Web Vitals",
-    "isVisible": true,
-    "type": "Front Back"
-  },
-  {
-    "name": "Agile Method",
-    "isVisible": true,
-    "type": "Soft"
-  },
-  {
-    "name": "Mongo DB",
+    "name": "Express",
     "isVisible": true,
     "type": "Back"
   },
   {
-    "name": "Tailwind CSS",
+    "name": "PHP",
     "isVisible": true,
-    "type": "Front"
+    "type": "Back"
   },
   {
-    "name": "English - B2",
+    "name": "PostgreSQL",
     "isVisible": true,
-    "type": "Soft"
+    "type": "Back"
   },
   {
-    "name": "French - Native speaker",
+    "name": "MySQL",
     "isVisible": true,
-    "type": "Soft"
+    "type": "Back"
   },
   {
-    "name": "Excellent relationship",
+    "name": "Prisma",
     "isVisible": true,
-    "type": "Soft"
+    "type": "Back"
   },
   {
-    "name": "Vercel",
+    "name": "Drizzle",
     "isVisible": true,
-    "type": "Tool"
+    "type": "Back"
   },
   {
-    "name": "Canva",
+    "name": "C++",
     "isVisible": true,
-    "type": "Tool"
+    "type": "Système"
   },
   {
-    "name": "Trello",
+    "name": "GDScript / Godot",
     "isVisible": true,
-    "type": "Tool"
+    "type": "Système"
   },
   {
-    "name": "Next.js",
+    "name": "Git / GitHub",
     "isVisible": true,
-    "type": "Front"
+    "type": "Outils"
+  },
+  {
+    "name": "GitHub Actions",
+    "isVisible": true,
+    "type": "Outils"
+  },
+  {
+    "name": "Docker Compose",
+    "isVisible": true,
+    "type": "Outils"
+  },
+  {
+    "name": "Vite",
+    "isVisible": true,
+    "type": "Outils"
+  },
+  {
+    "name": "Claude Code / agents",
+    "isVisible": true,
+    "type": "Outils"
+  },
+  {
+    "name": "Sass",
+    "isVisible": true,
+    "type": "Web"
+  },
+  {
+    "name": "Figma",
+    "isVisible": true,
+    "type": "Outils"
   }
 ]

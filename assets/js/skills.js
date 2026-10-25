@@ -5,13 +5,13 @@ import {
   toggleActiveFilter,
 } from './shared.js'
 
-const skillsURL = '/data/skills.json'
+const skillsURL = 'data/skills.json'
 const skillsContainer = document.querySelector('.skills')
 const skillsFilterContainer = document.getElementById(
   'skills__filters__container'
 )
-const filtersArray = ['All', 'Front', 'Back', 'Tool', 'Soft']
-let filterTag = 'All'
+const filtersArray = ['Tout', 'Web', 'Back', 'Système', 'Outils']
+let filterTag = 'Tout'
 const fileName = 'skills'
 
 getData(skillsURL)
