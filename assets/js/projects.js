@@ -6,7 +6,7 @@ const projectsContent = document.querySelector('.projects__content')
 const projectsFilterContainer = document.getElementById(
   'project__filters__container'
 )
-const filtersArray = ['Tout', 'Client', 'Système', 'Outil', 'Lab']
+const filtersArray = ['Tout', 'Client', 'Perso', 'Système', 'Outil', 'Lab']
 let filterTag = 'Tout'
 const fileName = 'projects'
 

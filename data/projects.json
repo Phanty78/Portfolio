@@ -28,9 +28,9 @@
     "type": "Client"
   },
   {
-    "title": "SPLAT — plateforme de données",
+    "title": "SPLAT — trading automatisé sur Hive",
     "isVisible": true,
-    "description": "Mission freelance via NowwweB : plateforme Next.js/Node avec ingestion de données, API et PostgreSQL via Prisma. Étude de cas sur demande.",
+    "description": "Projet personnel : plateforme de trading automatisée de cartes virtuelles sur la blockchain Hive, pour le jeu Splinterlands. Ingestion de marché, stratégies d'achat/vente et tableau de bord.",
     "imageURL": "assets/webp/splat.svg",
     "technologies": [
       "Next.js",
@@ -39,7 +39,7 @@
     ],
     "live-link": "",
     "source-link": "",
-    "type": "Client"
+    "type": "Perso"
   },
   {
     "title": "Hunger & Thirst — module AzerothCore",

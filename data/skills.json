@@ -123,5 +123,10 @@
     "name": "Figma",
     "isVisible": true,
     "type": "Outils"
+  },
+  {
+    "name": "Code legacy",
+    "isVisible": true,
+    "type": "Back"
   }
 ]
