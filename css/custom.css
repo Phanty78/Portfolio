@@ -266,3 +266,300 @@ button.filter:hover {
   background: #374753;
   color: #fff;
 }
+
+/* Hero 2026 — deux colonnes, plus de bloc vide ni d'icônes coupées */
+.home-hero {
+  height: auto;
+  min-height: 100vh;
+  max-height: none;
+  display: flex;
+  align-items: center;
+  padding: 16rem 0 10rem;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(56, 189, 248, 0.24), transparent 42%),
+    radial-gradient(circle at 88% 82%, rgba(0, 98, 185, 0.35), transparent 45%),
+    linear-gradient(135deg, #043b6e 0%, #0062b9 55%, #002f5f 100%);
+  overflow: hidden;
+}
+
+.home-hero__inner {
+  width: 92%;
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 6rem;
+  align-items: center;
+}
+
+.home-hero__content {
+  position: static;
+  top: auto;
+  left: auto;
+  transform: none;
+  max-width: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.home-hero__eyebrow {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.45rem;
+  margin-bottom: 1.6rem;
+}
+
+.home-hero .heading-primary {
+  text-align: left;
+  font-size: 5.6rem;
+  line-height: 1.05;
+  letter-spacing: 2px;
+  margin: 0 0 2.4rem;
+}
+
+.home-hero__lead {
+  max-width: 62rem;
+  font-size: 1.9rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.hero__status {
+  margin-top: 2rem;
+  padding: 0.55rem 1.2rem;
+  font-size: 1.35rem;
+}
+
+.home-hero__cta {
+  margin-top: 3rem;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.home-hero__cta .btn--theme {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.home-hero__cta .btn--theme:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+
+.home-hero__socials-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.2rem;
+  margin-top: 4rem;
+  align-items: center;
+}
+
+.home-hero__socials-inline a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 1.45rem;
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding-bottom: 0.4rem;
+}
+
+.home-hero__socials-inline a:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.home-hero__aside {
+  width: 100%;
+  max-width: 44rem;
+  justify-self: end;
+}
+
+.hero-card {
+  padding: 2.8rem;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+}
+
+.hero-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.4rem;
+}
+
+.hero-card__monogram {
+  display: grid;
+  place-items: center;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #38bdf8, #0062b9);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.hero-card__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  background: rgba(34, 197, 94, 0.12);
+  color: #bbf7d0;
+  font-size: 1.25rem;
+}
+
+.hero-card__badge::before {
+  content: '';
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: #22c55e;
+}
+
+.hero-card h2 {
+  font-size: 2.4rem;
+  color: #fff;
+  margin-bottom: 0.6rem;
+}
+
+.hero-card__location {
+  font-size: 1.45rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 2rem;
+}
+
+.hero-card__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.hero-card__stack li {
+  padding: 0.55rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+  font-size: 1.3rem;
+}
+
+.hero-card__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.hero-card__footer strong {
+  color: #fff;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .home-hero {
+    min-height: auto;
+    padding: 13rem 0 8rem;
+  }
+
+  .home-hero__inner {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .home-hero__aside {
+    max-width: 44rem;
+    justify-self: start;
+  }
+
+  .home-hero .heading-primary {
+    font-size: 4.4rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .home-hero {
+    min-height: auto;
+    padding: 11rem 0 7rem;
+  }
+
+  .home-hero .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .home-hero__cta {
+    flex-direction: column;
+  }
+
+  .home-hero__cta .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-card {
+    padding: 2rem;
+  }
+
+  .hero-card__footer {
+    flex-direction: column;
+  }
+}
+
+/* 7 entrées de nav : bascule sur le menu hamburger avant que ça déborde */
+@media only screen and (max-width: 75em) {
+  .header__links {
+    display: none;
+  }
+
+  .header__main-ham-menu-cont {
+    display: block;
+  }
+
+  .header__sm-menu--active {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+/* Contact : 3 boutons ne doivent pas déborder avant le breakpoint mobile */
+.contact__button-container {
+  width: 100%;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+/* Contact : grille 2x2 propre sur desktop, 1 colonne sur mobile */
+.contact__button-container--grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 76rem;
+  margin: 0 auto;
+}
+
+.contact__button-container--grid .btn {
+  width: 100%;
+  margin: 0;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .contact__button-container--grid {
+    grid-template-columns: 1fr;
+  }
+}

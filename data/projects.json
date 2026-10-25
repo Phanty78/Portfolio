@@ -30,7 +30,7 @@
   {
     "title": "SPLAT — plateforme de données",
     "isVisible": true,
-    "description": "Mission freelance via ma société : plateforme Next.js/Node avec ingestion de données, API et PostgreSQL via Prisma. Étude de cas sur demande.",
+    "description": "Mission freelance via NowwweB : plateforme Next.js/Node avec ingestion de données, API et PostgreSQL via Prisma. Étude de cas sur demande.",
     "imageURL": "assets/webp/splat.svg",
     "technologies": [
       "Next.js",
